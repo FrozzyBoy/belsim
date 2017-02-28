@@ -10,8 +10,8 @@ var keystone = require('keystone');
 // and documentation.
 
 keystone.init({
-	'name': 'belsim',
-	'brand': 'belsim',
+	'name': 'Belsim',
+	'brand': 'Belsim',
 
 	'less': 'public',
 	'static': 'public',
