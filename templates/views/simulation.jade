@@ -1,0 +1,14 @@
+extends ../layouts/default
+
+block content
+	.container: .jumbotron
+		div(ng-app="belsim")
+			belsim-simulation
+
+block css
+	link(href='/build/vendor.css', rel='stylesheet')
+	link(href='/build/app.css', rel='stylesheet')
+
+block js
+	script(src="/build/vendor.js")
+	script(src="/build/app.js")
