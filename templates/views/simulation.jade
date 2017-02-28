@@ -5,10 +5,7 @@ block content
 		div(ng-app="belsim")
 			belsim-simulation
 
-block css
-	link(href='/build/vendor.css', rel='stylesheet')
-	link(href='/build/app.css', rel='stylesheet')
-
 block js
+	script(src="/build/polyfills.js")
 	script(src="/build/vendor.js")
 	script(src="/build/app.js")
