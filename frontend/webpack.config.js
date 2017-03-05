@@ -2,6 +2,8 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+let env = process.env.ENV;
+
 module.exports = {
 	entry: {
 		'polyfills': './src/polyfills.ts',
@@ -16,7 +18,7 @@ module.exports = {
 	devtool: 'cheap-module-eval-source-map',
 
 	output: {
-		path: '/build',
+		path: env.toLowerCase() === 'production' ? '../public/build' : '/build',
 		publicPath: 'http://localhost:8080/',
 		filename: '[name].js',
 		chunkFilename: '[id].chunk.js'

@@ -18,6 +18,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "build-frontend": "buildFrontEnd.bat",
     "start": "node keystone.js"
   }
 }
