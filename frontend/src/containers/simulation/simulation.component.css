@@ -1,3 +1,45 @@
+:host {
+    display: block;
+}
+
 .belsim-simulation {
-	color: purple;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.belsim-simulation__toolbar {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.24);
+    z-index: 1;
+    color: white;
+    background: #00bcd4;
+}
+
+.belsim-simulation__sidenav-container {
+    flex: 1;
+}
+
+.belsim-simulation__sidenav {
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.24);
+    width: 250px;
+    display: flex;
+    overflow: visible;
+}
+
+.belsim-simulation__sidenav-content {
+    display: flex;
+    flex-direction: column;
+	width: 250px;
+}
+
+.belsim-simulation__sidenav-item--active {
+	background-color: #c7cfff;
+}
+
+.belsim-simulation__content {
+    overflow: auto;
+}
+
+.belsim-simulation__tab-content {
+	padding: 20px;
 }
