@@ -12,9 +12,10 @@
 
 		<div class="belsim-simulation__content">
 			<md-tab-group *ngIf="false">
-				<md-tab *ngFor="let tab of tabs" label="{{tab.label}}">
+				<md-tab *ngFor="let tab of tabs" label="{{tab.title}}">
 					<div class="belsim-simulation__tab-content">
-						{{tab.label}}
+						Content
+						<div #dynamic></div>
 					</div>
 				</md-tab>
 			</md-tab-group>

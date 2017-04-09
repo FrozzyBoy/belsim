@@ -15,7 +15,7 @@ module.exports = {
 		extensions: ['.ts', '.js']
 	},
 
-	devtool: 'cheap-module-eval-source-map',
+	devtool: 'source-map',
 
 	output: {
 		path: env.toLowerCase() === 'production' ? '../public/build' : '/build',

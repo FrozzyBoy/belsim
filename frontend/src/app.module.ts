@@ -4,6 +4,7 @@ import { MaterialModule } from '@angular/material';
 
 import { SimulationComponent } from './containers';
 import { OutputVisualizationComponent } from './components';
+import { ProductionComponent } from './components';
 
 @NgModule({
     imports: [
@@ -12,8 +13,10 @@ import { OutputVisualizationComponent } from './components';
     ],
     declarations: [
         SimulationComponent,
-        OutputVisualizationComponent
+        OutputVisualizationComponent,
+        ProductionComponent
     ],
-    bootstrap: [SimulationComponent]
+    bootstrap: [SimulationComponent],
+    entryComponents: [ProductionComponent]
 })
 export class AppModule { }
