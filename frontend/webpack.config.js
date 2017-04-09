@@ -19,7 +19,7 @@ module.exports = {
 
 	output: {
 		path: env.toLowerCase() === 'production' ? '../public/build' : '/build',
-		publicPath: 'http://localhost:8880/',
+		publicPath: 'http://localhost:8080/',
 		filename: '[name].js',
 		chunkFilename: '[id].chunk.js'
 	},
