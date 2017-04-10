@@ -1,7 +1,15 @@
-// spec.js
+let tabsPage = require('../page-objects/tabsPage');
+
 describe('Protractor Demo App', () => {
-    it('should have a title', () => {
+    it('tabs count should be 10', () => {
         browser.get('http://localhost:8080/');
-        expect(browser.getTitle()).toEqual('Angular With Webpack');
+
+        let tabsCount = tabsPage.getTabsCount();
+        expect(tabsCount).toBe(10);
+    });
+
+    it('first tab name should be "Производство"', () => {
+        let tabName = tabsPage.getTabText(0);
+        expect(tabName).toEqual('Производство');
     });
 });

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Belsim Frontend App",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080",
+    "start": "webpack-dev-server --inline --progress --port 8880",
     "build": "webpack --config webpack.config.js --progress --profile --bail",
     "update-webdriver": "webdriver-manager update",
     "postinstall": "npm run update-webdriver",
@@ -28,7 +28,10 @@
   },
   "devDependencies": {
     "@types/d3": "^4.5.0",
-    "@types/node": "^7.0.5",
+    "@types/jasmine": "^2.5.47",
+    "@types/node": "^7.0.12",
+    "@types/protractor": "^4.0.0",
+    "@types/selenium-webdriver": "^3.0.1",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.0.8",
     "css-loader": "^0.26.2",
