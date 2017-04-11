@@ -5,19 +5,20 @@
 			<div class="belsim-simulation__content belsim-simulation__sidenav-content">
 				<button md-button>Продукция</button>
 				<button md-button>Ресурсы</button>
-				<button md-button class="belsim-simulation__sidenav-item belsim-simulation__sidenav-item--active">Данные модели</button>
-				<button md-button>Результаты моелирования</button>
+				<button md-button>Данные модели</button>
+				<button md-button class="belsim-simulation__sidenav-item belsim-simulation__sidenav-item--active">Результаты моелирования</button>
 			</div>
 		</md-sidenav>
 
 		<div class="belsim-simulation__content">
-			<md-tab-group>
+			<md-tab-group *ngIf="false">
 				<md-tab *ngFor="let tab of tabs" label="{{tab.label}}">
 					<div class="belsim-simulation__tab-content">
 						{{tab.label}}
 					</div>
 				</md-tab>
 			</md-tab-group>
+			<output-visualization></output-visualization>
 		</div>
 	</md-sidenav-container>
 </div>

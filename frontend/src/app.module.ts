@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MaterialModule } from '@angular/material';
 
 import { SimulationComponent } from './containers';
+import { OutputVisualizationComponent } from './components';
 
 @NgModule({
     imports: [
@@ -10,7 +11,8 @@ import { SimulationComponent } from './containers';
         MaterialModule
     ],
     declarations: [
-        SimulationComponent
+        SimulationComponent,
+        OutputVisualizationComponent
     ],
     bootstrap: [SimulationComponent]
 })
