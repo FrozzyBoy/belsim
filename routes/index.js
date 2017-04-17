@@ -1,6 +1,7 @@
 var keystone = require('keystone');
 var middleware = require('./middleware');
 var importRoutes = keystone.importer(__dirname);
+var api = require('./../api/index');
 
 // Common Middleware
 keystone.pre('routes', middleware.initLocals);
@@ -15,5 +16,5 @@ var routes = {
 exports = module.exports = function (app) {
 	// Views
 	app.get('/', routes.views.index);
-
+	api.init(app);
 };
