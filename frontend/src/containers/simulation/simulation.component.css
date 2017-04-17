@@ -16,7 +16,7 @@
 }
 
 .belsim-simulation__sidenav-container {
-    flex: 1;
+    height: 100%;
 }
 
 .belsim-simulation__sidenav {
@@ -26,42 +26,12 @@
     overflow: visible;
 }
 
-.belsim-simulation__extended-sidenav {
-    box-shadow: -3px 0 6px rgba(0, 0, 0, 0.24);
-    width: 350px;
-}
-
 .belsim-simulation__sidenav-content {
     display: flex;
     flex-direction: column;
 	width: 250px;
 }
 
-.belsim-simulation__extended-sidenav-content {
-    display: flex;
-    flex-direction: column;
-	width: 350px;
-}
-
 .belsim-simulation__sidenav-item--active {
 	background-color: #c7cfff;
-}
-
-.belsim-simulation__content {
-    overflow: auto;
-}
-
-.belsim-simulation__tab-content {
-	padding: 20px;
-}
-
-.belsim-simulation__resources-header {
-    margin: 16px 8px;
-    font-size: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.belsim-simulation__resource-input {
-    margin: 8px;
 }

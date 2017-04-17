@@ -1,0 +1,24 @@
+<div class="belsim-data-model__content">
+    <md-tab-group>
+        <!--<md-tab *ngFor="let tab of tabs" label="{{tab.title}}">
+                <div class="belsim-data-model__tab-content">
+                    <div #dynamic></div>
+                </div>
+            </md-tab>-->
+        <md-tab label="Производство">
+            <div class="belsim-data-model__tab-content">
+                <belsim-production [model]="simulationModel.production" (onCycleChange)="openExtendedSidenav($event)"></belsim-production>
+            </div>
+        </md-tab>
+    </md-tab-group>
+    <md-sidenav-container class="belsim-data-model__sidenav-container">
+        <md-sidenav #sidenav2 mode="side" opened="false" align="end" class="belsim-data-model__extended-sidenav">
+            <div class="belsim-data-model__content belsim-data-model__extended-sidenav-content">
+                <div class="belsim-data-model__resources-header">Расход ресурсов (ед.рес./ед.прод.)</div>
+                <md-input-container *ngFor="let resource of resources" class="belsim-data-model__resource-input">
+                    <input mdInput type="number" step="any" placeholder="{{resource.name}}" value="{{resource.consumption}}">
+                </md-input-container>
+            </div>
+        </md-sidenav>
+    </md-sidenav-container>
+</div>

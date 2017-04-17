@@ -3,36 +3,13 @@
 	<md-sidenav-container class="belsim-simulation__sidenav-container">
 		<md-sidenav #sidenav mode="side" opened="true" class="belsim-simulation__sidenav">
 			<div class="belsim-simulation__content belsim-simulation__sidenav-content">
-				<button md-button>Продукция</button>
-				<button md-button>Ресурсы</button>
-				<button md-button>Данные модели</button>
-				<button md-button class="belsim-simulation__sidenav-item belsim-simulation__sidenav-item--active">Результаты моелирования</button>
+				<button routerLink="/mock1" routerLinkActive="belsim-simulation__sidenav-item--active" md-button>Продукция</button>
+				<button routerLink="/mock2" routerLinkActive="belsim-simulation__sidenav-item--active" md-button>Ресурсы</button>
+				<button routerLink="/dataModel" routerLinkActive="belsim-simulation__sidenav-item--active" md-button>Данные модели</button>
+				<button routerLink="/simulationResults" routerLinkActive="belsim-simulation__sidenav-item--active" md-button>Результаты моелирования</button>
 			</div>
 		</md-sidenav>
 
-		<div class="belsim-simulation__content">
-			<md-tab-group *ngIf="false">
-				<!--<md-tab *ngFor="let tab of tabs" label="{{tab.title}}">
-					<div class="belsim-simulation__tab-content">
-						<div #dynamic></div>
-					</div>
-				</md-tab>-->
-				<md-tab label="Производство">
-					<div class="belsim-simulation__tab-content">
-						<belsim-production [model]="simulationModel.production" (onCycleChange)="openExtendedSidenav($event)"></belsim-production>
-					</div>
-				</md-tab>
-			</md-tab-group>
-			<output-visualization></output-visualization>
-		</div>
-
-		<md-sidenav #sidenav2 mode="side" opened="false" align="end" class="belsim-simulation__extended-sidenav">
-			<div class="belsim-simulation__content belsim-simulation__extended-sidenav-content">
-				<div class="belsim-simulation__resources-header">Расход ресурсов (ед.рес./ед.прод.)</div>
-				<md-input-container *ngFor="let resource of resources" class="belsim-simulation__resource-input">
-					<input mdInput type="number" step="any" placeholder="{{resource.name}}" value="{{resource.consumption}}">
-				</md-input-container>
-			</div>
-		</md-sidenav>
+		<router-outlet></router-outlet>
 	</md-sidenav-container>
 </div>
