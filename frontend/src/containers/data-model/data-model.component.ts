@@ -14,16 +14,16 @@ export class DataModelComponent implements OnInit, AfterViewInit {
     @ViewChild('sidenav2') private extendedSidenav: any;
 
     public tabs: belsim.simulation.ITab[] = [
-        { id: 'production', title: 'Производство' },
-        // { id: 'production', title: 'Запасы' },
-        // { id: 'production', title: 'Реализация' },
-        // { id: 'production', title: 'Снабжение' },
-        // { id: 'production', title: 'Финансы' },
-        // { id: 'production', title: 'Кредиты' },
-        // { id: 'production', title: 'Затраты' },
-        // { id: 'production', title: 'Основные средства' },
-        // { id: 'production', title: 'Налоги' },
-        // { id: 'production', title: 'Счета' }
+        // { id: 'production', title: 'Производство' },
+        { id: 'production', title: 'Запасы' },
+        { id: 'production', title: 'Реализация' },
+        { id: 'production', title: 'Снабжение' },
+        { id: 'production', title: 'Финансы' },
+        { id: 'production', title: 'Кредиты' },
+        { id: 'production', title: 'Затраты' },
+        { id: 'production', title: 'Основные средства' },
+        { id: 'production', title: 'Налоги' },
+        { id: 'production', title: 'Счета' }
     ];
 
     public simulationModel: any;
@@ -33,7 +33,7 @@ export class DataModelComponent implements OnInit, AfterViewInit {
     public resources: any[];
 
     private components = {
-        'production': ProductionComponent
+        'production': MockComponent
     };
 
     public constructor(
@@ -69,4 +69,12 @@ export class DataModelComponent implements OnInit, AfterViewInit {
             }
         }
     }
+}
+
+@Component({
+    selector: 'belsim-mock',
+    template: '<div></div>',
+    styleUrls: ['./data-model.component.css']
+})
+export class MockComponent {
 }

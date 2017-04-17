@@ -4,7 +4,7 @@ import { MaterialModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes, RouteReuseStrategy } from '@angular/router';
 
-import { SimulationComponent, DataModelComponent, SimulationResultsComponent } from './containers';
+import { SimulationComponent, DataModelComponent, SimulationResultsComponent, MockComponent } from './containers';
 import { OutputVisualizationComponent } from './components';
 import { ProductionComponent } from './components';
 import { DataModelService } from './services';
@@ -40,10 +40,11 @@ const appRoutes: Routes = [
         DataModelComponent,
         SimulationResultsComponent,
         OutputVisualizationComponent,
+        MockComponent,
         ProductionComponent
     ],
     providers: [DataModelService, { provide: RouteReuseStrategy, useClass: CustomReuseStrategy }],
     bootstrap: [SimulationComponent],
-    entryComponents: [ProductionComponent]
+    entryComponents: [ProductionComponent, MockComponent]
 })
 export class AppModule { }
