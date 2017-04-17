@@ -1,0 +1,50 @@
+{
+    "production": {
+        "planningInterval": 5,
+        "planningIntervalsCount": 10,
+        "productionCycles": [
+            {
+                "name": "П/ботинки дошкол. 33451",
+                "value": "27",
+                "resources": [
+                    {
+                        "name": "Качественная кожа",
+                        "consumption": 23.75
+                    },
+                    {
+                        "name": "Супер кожа",
+                        "consumption": 38
+                    }
+                ]
+            },
+            {
+                "name": "Ботинки малодетские утепл. М.25184",
+                "value": "93",
+                "resources": [
+                    {
+                        "name": "Качественная бумага",
+                        "consumption": 23.75
+                    },
+                    {
+                        "name": "Супер бумага",
+                        "consumption": 38
+                    }
+                ]
+            },
+            {
+                "name": "Кеды",
+                "value": "14",
+                "resources": [
+                    {
+                        "name": "Качественный бамбук",
+                        "consumption": 23.75
+                    },
+                    {
+                        "name": "Супер бамбук",
+                        "consumption": 38
+                    }
+                ]
+            }
+        ]
+    }
+}

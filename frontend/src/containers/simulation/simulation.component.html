@@ -12,14 +12,27 @@
 
 		<div class="belsim-simulation__content">
 			<md-tab-group *ngIf="false">
-				<md-tab *ngFor="let tab of tabs" label="{{tab.title}}">
+				<!--<md-tab *ngFor="let tab of tabs" label="{{tab.title}}">
 					<div class="belsim-simulation__tab-content">
-						Content
 						<div #dynamic></div>
+					</div>
+				</md-tab>-->
+				<md-tab label="Производство">
+					<div class="belsim-simulation__tab-content">
+						<belsim-production [model]="simulationModel.production" (onCycleChange)="openExtendedSidenav($event)"></belsim-production>
 					</div>
 				</md-tab>
 			</md-tab-group>
 			<output-visualization></output-visualization>
 		</div>
+
+		<md-sidenav #sidenav2 mode="side" opened="false" align="end" class="belsim-simulation__extended-sidenav">
+			<div class="belsim-simulation__content belsim-simulation__extended-sidenav-content">
+				<div class="belsim-simulation__resources-header">Расход ресурсов (ед.рес./ед.прод.)</div>
+				<md-input-container *ngFor="let resource of resources" class="belsim-simulation__resource-input">
+					<input mdInput type="number" step="any" placeholder="{{resource.name}}" value="{{resource.consumption}}">
+				</md-input-container>
+			</div>
+		</md-sidenav>
 	</md-sidenav-container>
 </div>

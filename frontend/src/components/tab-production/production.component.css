@@ -1,0 +1,16 @@
+.production td {
+    padding: 0 8px 0 0;
+}
+
+.production__input {
+  width: 350px;
+}
+
+.production__cycle {
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+
+.mat-select-underline {
+    bottom: 4px !important;
+}
