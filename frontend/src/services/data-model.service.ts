@@ -5,7 +5,7 @@ let model = require('./model.json');
 @Injectable()
 export class DataModelService {
 
-    public getModel() {
+    public getModel(): belsim.api.IDataModel {
         return model;
     }
 }

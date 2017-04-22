@@ -26,14 +26,13 @@ export class DataModelComponent implements OnInit, AfterViewInit {
         { id: 'production', title: 'Счета' }
     ];
 
-    public simulationModel: any;
+    public dataModel: belsim.api.IDataModel;
+    public resources: belsim.api.IProductionResource[];
 
     public isExtendedSidenavOpened: boolean;
 
-    public resources: any[];
-
     private components = {
-        'production': MockComponent
+        production: MockComponent
     };
 
     public constructor(
@@ -42,13 +41,13 @@ export class DataModelComponent implements OnInit, AfterViewInit {
     ) { }
 
     public ngOnInit(): void {
-        this.simulationModel = this.dataModelService.getModel();
+        this.dataModel = this.dataModelService.getModel();
     }
 
-    public openExtendedSidenav($event: any) {
-        if (!!$event) {
+    public openExtendedSidenav(productionCycle: belsim.api.IProductionCycle) {
+        if (!!productionCycle) {
             this.extendedSidenav.open();
-            this.resources = $event.resources;
+            this.resources = productionCycle.resources;
         } else {
             this.extendedSidenav.close();
         }

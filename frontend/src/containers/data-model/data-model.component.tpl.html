@@ -3,7 +3,7 @@
         <md-tab-group>
             <md-tab label="Производство">
                 <div class="belsim-data-model__tab-content">
-                    <belsim-production [model]="simulationModel.production" (onCycleChange)="openExtendedSidenav($event)"></belsim-production>
+                    <belsim-production [production]="dataModel.production" (onCycleChange)="openExtendedSidenav($event)"></belsim-production>
                 </div>
             </md-tab>
             <md-tab *ngFor="let tab of tabs" label="{{tab.title}}">

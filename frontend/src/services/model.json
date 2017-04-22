@@ -2,10 +2,10 @@
     "production": {
         "planningInterval": 5,
         "planningIntervalsCount": 10,
-        "productionCycles": [
+        "cycle": [
             {
-                "name": "П/ботинки дошкол. 33451",
-                "value": "27",
+                "product": "П/ботинки дошкол. 33451",
+                "quantity": "27",
                 "resources": [
                     {
                         "name": "Качественная кожа",
@@ -18,8 +18,8 @@
                 ]
             },
             {
-                "name": "Ботинки малодетские утепл. М.25184",
-                "value": "93",
+                "product": "Ботинки малодетские утепл. М.25184",
+                "quantity": "93",
                 "resources": [
                     {
                         "name": "Качественная бумага",
@@ -32,8 +32,8 @@
                 ]
             },
             {
-                "name": "Кеды",
-                "value": "14",
+                "product": "Кеды",
+                "quantity": "14",
                 "resources": [
                     {
                         "name": "Качественный бамбук",

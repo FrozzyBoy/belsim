@@ -8,7 +8,7 @@ import { Component, Input, Output, EventEmitter, OnChanges, SimpleChanges, ViewE
 })
 export class ProductionComponent implements OnChanges {
 
-    @Input() public model: any;
+    @Input() public production: belsim.api.IProduction;
 
     @Output() public onCycleChange: EventEmitter<any> = new EventEmitter<any>();
 
@@ -19,14 +19,14 @@ export class ProductionComponent implements OnChanges {
     private prevChecked: any;
 
     public ngOnChanges(changes: SimpleChanges): void {
-        if (changes['model']) {
-            this.productionCycle = this.model.productionCycles.map((c: any, i: any) => {
-                this.products.push({ value: i, viewValue: c.name });
+        if (changes['production']) {
+            this.productionCycle = this.production.cycle.map((c, i) => {
+                this.products.push({ value: i, viewValue: c.product });
                 return {
                     isChecked: false,
-                    viewValue: c.name,
+                    viewValue: c.product,
                     value: i,
-                    duration: c.value,
+                    duration: c.quantity,
                     resources: c.resources
                 };
             })
