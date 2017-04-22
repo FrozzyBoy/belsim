@@ -30,4 +30,4 @@ node_modules
 # place for js app build
 public/build
 frontend/build
-*/.vscode
+.vscode
