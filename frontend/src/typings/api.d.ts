@@ -10,13 +10,24 @@ declare namespace belsim.api {
     }
 
     interface IProductionCycle {
-        product: string;
+        product: IProduct;
         quantity: number;
-        resources: IProductionResource[]
+        resources: IProductionResource[];
+        isChecked?: boolean;
     }
 
     interface IProductionResource {
-        name: string;
+        resource: IResource;
         consumption: number;
+    }
+
+    interface IProduct {
+        id: string;
+        name: string;
+    }
+
+    interface IResource {
+        id: string;
+        name: string;
     }
 }

@@ -4,7 +4,10 @@
         "planningIntervalsCount": 10,
         "cycle": [
             {
-                "product": "П/ботинки дошкол. 33451",
+                "product": {
+                    "id": "111",
+                    "name": "П/ботинки дошкол. 33451"
+                },
                 "quantity": "27",
                 "resources": [
                     {
@@ -18,7 +21,10 @@
                 ]
             },
             {
-                "product": "Ботинки малодетские утепл. М.25184",
+                "product": {
+                    "id": "222",
+                    "name": "Ботинки малодетские утепл. М.25184"
+                },
                 "quantity": "93",
                 "resources": [
                     {
@@ -32,7 +38,10 @@
                 ]
             },
             {
-                "product": "Кеды",
+                "product": {
+                    "id": "333",
+                    "name": "Кеды"
+                },
                 "quantity": "14",
                 "resources": [
                     {

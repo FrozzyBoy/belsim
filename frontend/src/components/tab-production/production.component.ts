@@ -9,47 +9,50 @@ import { Component, Input, Output, EventEmitter, OnChanges, SimpleChanges, ViewE
 export class ProductionComponent implements OnChanges {
 
     @Input() public production: belsim.api.IProduction;
+    @Input() public products: belsim.api.IProduct[];
 
-    @Output() public onCycleChange: EventEmitter<any> = new EventEmitter<any>();
-
-    public products: any[] = [];
-
-    public productionCycle: any[];
+    @Output() public onProductionChange: EventEmitter<belsim.api.IProduction> = new EventEmitter();;
+    @Output() public onCycleChange: EventEmitter<any> = new EventEmitter();
 
     private prevChecked: any;
 
     public ngOnChanges(changes: SimpleChanges): void {
         if (changes['production']) {
-            this.productionCycle = this.production.cycle.map((c, i) => {
-                this.products.push({ value: i, viewValue: c.product });
-                return {
-                    isChecked: false,
-                    viewValue: c.product,
-                    value: i,
-                    duration: c.quantity,
-                    resources: c.resources
-                };
-            })
+
+        }
+
+        if (changes['products']) {
+
         }
     }
 
-    public productChanged($event: any, cycleComponent: any) {
-        cycleComponent.value = $event.value;
-        cycleComponent.viewValue = this.products.find(p => p.value === $event.value).viewValue;
+    public changePlanningInterval(planningInterval: number) {
+        this.production.planningInterval = planningInterval;
+        this.onProductionChange.emit(this.production);
     }
 
-    public selectCycle($event: any, cycleComponent: any) {
-        cycleComponent.isChecked = $event.checked;
+    public changePlanningIntervalsCount(planningIntervalsCount: number) {
+        this.production.planningIntervalsCount = planningIntervalsCount;
+        this.onProductionChange.emit(this.production);
+    }
 
-        if (this.prevChecked && this.prevChecked !== cycleComponent) {
+    public productChanged(id: string, productionCycle: belsim.api.IProductionCycle) {
+        productionCycle.product.id = id;
+        productionCycle.product.name = this.products.find(p => p.id === id).name;
+    }
+
+    public selectCycle($event: any, productionCycle: belsim.api.IProductionCycle) {
+        productionCycle.isChecked = $event.checked;
+
+        if (this.prevChecked && this.prevChecked !== productionCycle) {
             this.prevChecked.isChecked = false;
-            this.prevChecked = cycleComponent;
+            this.prevChecked = productionCycle;
         }
 
         if (!this.prevChecked) {
-            this.prevChecked = cycleComponent;
+            this.prevChecked = productionCycle;
         }
 
-        this.onCycleChange.emit(cycleComponent.isChecked ? cycleComponent : undefined);
+        this.onCycleChange.emit(productionCycle.isChecked ? productionCycle : undefined);
     }
 }

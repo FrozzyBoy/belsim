@@ -27,6 +27,7 @@ export class DataModelComponent implements OnInit, AfterViewInit {
     ];
 
     public dataModel: belsim.api.IDataModel;
+    public products: belsim.api.IProduct[];
     public resources: belsim.api.IProductionResource[];
 
     public isExtendedSidenavOpened: boolean;
@@ -42,6 +43,7 @@ export class DataModelComponent implements OnInit, AfterViewInit {
 
     public ngOnInit(): void {
         this.dataModel = this.dataModelService.getModel();
+        this.products = this.dataModelService.getProducts();
     }
 
     public openExtendedSidenav(productionCycle: belsim.api.IProductionCycle) {

@@ -1,12 +1,14 @@
 <form class="production" onSubmit="return false;">
 	<md-input-container class="production__input">
-		<input mdInput type="number" step="any" min="0" max="360" placeholder="Интервал планирования (дн.)" value="{{production.planningInterval}}">
+		<input mdInput type="number" step="any" min="0" max="360" placeholder="Интервал планирования (дн.)" value="{{production.planningInterval}}"
+		 (change)="changePlanningInterval($event.target.value)">
 	</md-input-container>
 
 	<br>
 
 	<md-input-container class="production__input">
-		<input mdInput type="number" step="any" min="0" max="360" placeholder="Количество интервалов планирования (дн.)" value="{{production.planningIntervalsCount}}">
+		<input mdInput type="number" step="any" min="0" max="360" placeholder="Количество интервалов планирования (дн.)" value="{{production.planningIntervalsCount}}"
+		 (change)="changePlanningIntervalsCount($event.target.value)">
 	</md-input-container>
 
 	<br>
@@ -14,21 +16,21 @@
 	<div class="production__cycle">Производственный цикл</div>
 
 	<table class="production__input" cellspacing="0">
-		<tr *ngFor="let cycleComponent of productionCycle;let i = index">
+		<tr *ngFor="let productionCycle of production.cycle;let key = index">
 			<td>
-				<md-checkbox [checked]="cycleComponent.isChecked" (change)="selectCycle($event, cycleComponent)"></md-checkbox>
+				<md-checkbox [checked]="productionCycle.isChecked" (change)="selectCycle($event, productionCycle)"></md-checkbox>
 			</td>
 			<td>
-				<md-select class="production__input" [(ngModel)]="cycleComponent.value" (change)="productChanged($event, cycleComponent)"
-				 placeholder="Наименование продукта" name="md-select-production-{{i}}">
-					<md-option *ngFor="let product of products" [value]="product.value">
-						{{ product.viewValue }}
+				<md-select class="production__input" [(ngModel)]="productionCycle.product.id" (change)="productChanged($event.value, productionCycle)"
+				 placeholder="Наименование продукта" name="md-select-production-{{key}}">
+					<md-option *ngFor="let product of products" [value]="product.id">
+						{{ product.name }}
 					</md-option>
 				</md-select>
 			</td>
 			<td>
 				<md-input-container class="production__input">
-					<input mdInput type="number" step="any" min="0" max="360" placeholder="Длительность цикла (дн.)" value="{{cycleComponent.duration}}">
+					<input mdInput type="number" step="any" min="0" max="360" placeholder="Длительность цикла (дн.)" value="{{productionCycle.quantity}}">
 				</md-input-container>
 			</td>
 		</tr>
