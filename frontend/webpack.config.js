@@ -18,7 +18,7 @@ module.exports = {
 	devtool: 'source-map',
 
 	output: {
-		path: env.toLowerCase() === 'production' ? '../public/build' : '/build',
+		path: env.toLowerCase() === 'production' ? '../public/build' : __dirname + '/build',
 		publicPath: 'http://localhost:8880/',
 		filename: '[name].js',
 		chunkFilename: '[id].chunk.js'
@@ -26,23 +26,23 @@ module.exports = {
 
 	module: {
 		rules: [{
-				test: /\.ts$/,
-				loaders: [{
-					loader: 'awesome-typescript-loader'
-				}, 'angular2-template-loader']
-			},
-			{
-				test: /\.html$/,
-				loader: 'html-loader'
-			},
-			{
-				test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-				loader: 'file-loader?name=assets/[name].[hash].[ext]'
-			},
-			{
-				test: /\.css$/,
-				loader: 'raw-loader'
-			}
+			test: /\.ts$/,
+			loaders: [{
+				loader: 'awesome-typescript-loader'
+			}, 'angular2-template-loader']
+		},
+		{
+			test: /\.html$/,
+			loader: 'html-loader'
+		},
+		{
+			test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
+			loader: 'file-loader?name=assets/[name].[hash].[ext]'
+		},
+		{
+			test: /\.css$/,
+			loader: 'raw-loader'
+		}
 		]
 	},
 
