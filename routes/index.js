@@ -1,14 +1,14 @@
-var keystone = require('keystone');
-var middleware = require('./middleware');
-var importRoutes = keystone.importer(__dirname);
-var api = require('./../api/index');
+let keystone = require('keystone');
+let middleware = require('./middleware');
+let importRoutes = keystone.importer(__dirname);
+let api = require('./../api/index');
 
 // Common Middleware
 keystone.pre('routes', middleware.initLocals);
 keystone.pre('render', middleware.flashMessages);
 
 // Import Route Controllers
-var routes = {
+let routes = {
 	views: importRoutes('./views'),
 };
 
@@ -16,5 +16,6 @@ var routes = {
 exports = module.exports = function (app) {
 	// Views
 	app.get('/', routes.views.index);
+	app.get('/simulation', middleware.requireUser, routes.views.simulation)
 	api.init(app);
 };

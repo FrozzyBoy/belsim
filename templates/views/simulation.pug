@@ -1,0 +1,11 @@
+extends ../layouts/default
+
+block content
+    .container: .jumbotron
+        div(ng-app="belsim")
+            belsim-simulation Loading...
+
+block js
+    script(src="/build/polyfills.js")
+    script(src="/build/vendor.js")
+    script(src="/build/app.js")

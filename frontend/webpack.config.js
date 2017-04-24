@@ -18,7 +18,7 @@ module.exports = {
 	devtool: 'source-map',
 
 	output: {
-		path: env.toLowerCase() === 'production' ? '../public/build' : __dirname + '/build',
+		path: `${__dirname}${(env.toLowerCase() === 'production' ? '/../public/build' : '/build')}`,
 		publicPath: 'http://localhost:8880/',
 		filename: '[name].js',
 		chunkFilename: '[id].chunk.js'

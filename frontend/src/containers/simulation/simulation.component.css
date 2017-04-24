@@ -2,6 +2,15 @@
     display: block;
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+belsim-simulation {
+    height: 100%;
+}
+
 .belsim-simulation {
     height: 100%;
     display: flex;
@@ -29,9 +38,9 @@
 .belsim-simulation__sidenav-content {
     display: flex;
     flex-direction: column;
-	width: 250px;
+    width: 250px;
 }
 
 .belsim-simulation__sidenav-item--active {
-	background-color: #c7cfff;
+    background-color: #c7cfff;
 }

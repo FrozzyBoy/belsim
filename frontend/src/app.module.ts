@@ -13,16 +13,16 @@ import { CustomReuseStrategy } from './router-reuse';
 
 const appRoutes: Routes = [
     {
-        path: 'dataModel',
+        path: 'simulation/dataModel',
         component: DataModelComponent
     },
     {
-        path: '',
-        redirectTo: '/dataModel',
+        path: 'simulation',
+        redirectTo: 'simulation/dataModel',
         pathMatch: 'full'
     },
     {
-        path: 'simulationResults',
+        path: 'simulation/simulationResults',
         component: SimulationResultsComponent
     }
 ];
