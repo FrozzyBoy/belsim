@@ -12,7 +12,7 @@ module.exports = {
       let result = {
         creator: data.creator,
         timeStamp: data.timeStamp,
-        data: sortData(data.data) //data.data[0].responses[0].variable
+        data: sortData(data.data)
       }
       return result;
     };
