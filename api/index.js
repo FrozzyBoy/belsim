@@ -52,13 +52,13 @@ module.exports = {
     };
 
     function findExtremums(data) {
-      data.forEach(valuesSet => {
-        if (valuesSet.values && valuesSet.values.length) {
-          valuesSet.values.forEach((values, valuesIndex) => {
-            valuesSet.values[valuesIndex] = getExtremumsForArray(valuesSet.values[valuesIndex]);
-          });
-        };
-      });
+      // data.forEach(valuesSet => {
+      //   if (valuesSet.values && valuesSet.values.length) {
+      //     valuesSet.values.forEach((values, valuesIndex) => {
+      //       valuesSet.values[valuesIndex] = getExtremumsForArray(valuesSet.values[valuesIndex]);
+      //     });
+      //   };
+      // });
       return data;
     };
 

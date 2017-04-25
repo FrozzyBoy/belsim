@@ -1,11 +1,12 @@
 require('./box.js');
 let boxData = require('./data.json');
 
-    var min = Infinity,
-        max = -Infinity;
+var min = Infinity,
+    max = -Infinity;
 
-function drawAll(element) {
-    var margin = { top: 10, right: 50, bottom: 20, left: 50 },
+function drawAll(element, originData) {
+    let objects = originData;
+    let margin = { top: 10, right: 50, bottom: 20, left: 50 },
         width = 120 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -14,23 +15,23 @@ function drawAll(element) {
         .width(width)
         .height(height);
 
-    function draw (error, csv) {
-        if (error) throw error;
-
+    function draw(values) {
         var data = [];
 
-        csv.forEach(function (x) {
-            var e = Math.floor(x.Expt - 1),
-                r = Math.floor(x.Run - 1),
-                s = Math.floor(x.Speed),
+        values.forEach((vals, valsIndex) => vals.forEach((elem, elemIndex) => {
+            var e = Math.floor(valsIndex),
+                r = Math.floor(valsIndex),
+                s = Math.floor(elem),
                 d = data[e];
             if (!d) d = data[e] = [s];
             else d.push(s);
             if (s > max) max = s;
             if (s < min) min = s;
-        });
+        }));
 
         chart.domain([min, max]);
+
+        d3.select(element).selectAll("svg").remove();
 
         var svg = d3.select(element).selectAll("svg")
             .data(data)
@@ -41,25 +42,9 @@ function drawAll(element) {
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
             .call(chart);
-
-        setInterval(function () {
-            svg.datum(randomize).call(chart.duration(1000));
-        }, 2000);
     };
 
-    draw(null,boxData);
-}
-
-function randomize(d) {
-    if (!d.randomizer) d.randomizer = randomizer(d);
-    return d.map(d.randomizer);
-}
-
-function randomizer(d) {
-    var k = d3.max(d) * .02;
-    return function (d) {
-        return Math.max(min, Math.min(max, d + k * (Math.random() - .5)));
-    };
+    draw(objects.values);
 }
 
 // Returns a function to compute the interquartile range.

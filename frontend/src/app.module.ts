@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes, RouteReuseStrategy } from '@angular/router';
@@ -33,7 +34,8 @@ const appRoutes: Routes = [
         BrowserModule,
         MaterialModule,
         FormsModule,
-        RouterModule.forRoot(appRoutes)
+        RouterModule.forRoot(appRoutes),
+        HttpModule
     ],
     declarations: [
         SimulationComponent,
