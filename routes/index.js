@@ -17,5 +17,6 @@ exports = module.exports = function (app) {
 	// Views
 	app.get('/', routes.views.index);
 	app.get('/simulation', middleware.requireUser, routes.views.simulation)
+	app.get('/simulation/*', middleware.requireUser, routes.views.simulation)
 	api.init(app);
 };
