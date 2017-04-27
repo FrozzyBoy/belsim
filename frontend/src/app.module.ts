@@ -1,9 +1,11 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Inject } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule } from '@angular/http';
+import { HttpModule, Http } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes, RouteReuseStrategy } from '@angular/router';
+
+import { TranslateModule, TranslateLoader, TranslateStaticLoader, TranslateService } from 'ng2-translate';
 
 import { SimulationComponent, DataModelComponent, SimulationResultsComponent, MockComponent } from './containers';
 import { OutputVisualizationComponent } from './components';
@@ -35,7 +37,12 @@ const appRoutes: Routes = [
         MaterialModule,
         FormsModule,
         RouterModule.forRoot(appRoutes),
-        HttpModule
+        HttpModule,
+        TranslateModule.forRoot({
+            provide: TranslateLoader,
+            useFactory: (createTranslateLoader),
+            deps: [Http]
+        })
     ],
     declarations: [
         SimulationComponent,
@@ -49,4 +56,15 @@ const appRoutes: Routes = [
     bootstrap: [SimulationComponent],
     entryComponents: [ProductionComponent, MockComponent]
 })
-export class AppModule { }
+export class AppModule {
+    public constructor( @Inject(TranslateService) translate: TranslateService) {
+        const defaultLang = 'en';
+
+        translate.setDefaultLang(defaultLang);
+        translate.use(defaultLang);
+    }
+}
+
+function createTranslateLoader(http: Http): TranslateStaticLoader {
+    return new TranslateStaticLoader(http, 'localization/', '.json');
+}

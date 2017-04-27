@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 let env = process.env.ENV || 'develop';
 
@@ -53,7 +54,11 @@ module.exports = {
 
 		new HtmlWebpackPlugin({
 			template: 'src/index.html'
-		})
+		}),
+
+		new CopyWebpackPlugin([
+			{ from: 'src/localization', to: 'localization' }
+		])
 	],
 
 	devServer: {

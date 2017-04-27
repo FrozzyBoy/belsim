@@ -1,7 +1,7 @@
 <div class="belsim-data-model__content">
     <md-sidenav-container class="belsim-data-model__sidenav-container">
         <md-tab-group>
-            <md-tab label="Производство">
+            <md-tab label="{{'Belsim.Tabs.Production' | translate}}">
                 <div class="belsim-data-model__tab-content">
                     <belsim-production [production]="dataModel.production" [products]="products" (onCycleChange)="openExtendedSidenav($event)"></belsim-production>
                 </div>
