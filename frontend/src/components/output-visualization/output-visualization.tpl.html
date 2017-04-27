@@ -3,7 +3,7 @@
              [(ngModel)]="selectedModel.id"
              (change)="modelChange($event.value, selectedModel)"
              placeholder="Имя параметра"
-             name="md-select-production-{{key}}"
+             name="md-select-production-{{selectedModel.id}}"
   >
     <md-option *ngFor="let model of models"
                [value]="model.id"

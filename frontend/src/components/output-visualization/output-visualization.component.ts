@@ -13,8 +13,8 @@ import * as d3 from 'd3';
 })
 export class OutputVisualizationComponent implements OnInit {
   private data: any[];
-  private models: { id: number, name: string }[];
-  private selectedModel: any;
+  public models: { id: number, name: string }[];
+  public selectedModel: any;
 
   @ViewChild('chart') private chart: ElementRef;
 
