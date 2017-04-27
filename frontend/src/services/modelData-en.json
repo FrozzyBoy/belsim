@@ -1,0 +1,59 @@
+{
+    "production": {
+        "planningInterval": 5,
+        "planningIntervalsCount": 10,
+        "cycle": [
+            {
+                "product": {
+                    "id": "111",
+                    "name": "Сhildren's footwear"
+                },
+                "quantity": "27",
+                "resources": [
+                    {
+                        "name": "High-quality leather",
+                        "consumption": 2.75
+                    },
+                    {
+                        "name": "Rubber",
+                        "consumption": 5.25
+                    }
+                ]
+            },
+            {
+                "product": {
+                    "id": "222",
+                    "name": "Warmed children's shoes"
+                },
+                "quantity": "93",
+                "resources": [
+                    {
+                        "name": "High-quality leather",
+                        "consumption": 3.5
+                    },
+                    {
+                        "name": "High-quality fur",
+                        "consumption": 450
+                    }
+                ]
+            },
+            {
+                "product": {
+                    "id": "333",
+                    "name": "Sneakers"
+                },
+                "quantity": "14",
+                "resources": [
+                    {
+                        "name": "High-quality leather",
+                        "consumption": 1.5
+                    },
+                    {
+                        "name": "Rubber",
+                        "consumption": 4.25
+                    }
+                ]
+            }
+        ]
+    }
+}

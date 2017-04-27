@@ -1,3 +1,23 @@
 {
-    "Belsim.Tabs.Production": "Производство"
+    "Belsim.Tabs.Production": "Производство",
+    "Belsim.Tabs.Stock": "Запасы",
+    "Belsim.Tabs.Realization": "Реализация",
+    "Belsim.Tabs.Supply": "Снабжение",
+    "Belsim.Tabs.Finance": "Финансы",
+    "Belsim.Tabs.Loans": "Кредиты",
+    "Belsim.Tabs.Expenses": "Затраты",
+    "Belsim.Tabs.PrincipalСash": "Основные средства",
+    "Belsim.Tabs.Taxes": "Налоги",
+    "Belsim.Tabs.Accounts": "Счета",
+    "Belsim.Tabs.Production.PlanningInterval": "Интервал планирования (дн.)",
+    "Belsim.Tabs.Production.NumberOfPlanningIntervals": "Количество интервалов планирования (дн.)",
+    "Belsim.Tabs.Production.ProductionCycle": "Производственный цикл",
+    "Belsim.Tabs.Production.ProductName": "Наименование продукта",
+    "Belsim.Tabs.Production.CycleTime": "Длительность цикла (дн.)",
+    "Belsim.Tabs.Production.ResourceConsumption": "Расход ресурсов",
+    "Belsim.Tabs.Production.ResourceConsumption.Unit": "(ед. рес. / ед. прод.)",
+    "Belsim.Sidenav.Products": "Продукция",
+    "Belsim.Sidenav.Resources": "Ресурсы",
+    "Belsim.Sidenav.ModelData": "Данные модели",
+    "Belsim.Sidenav.SimulationResults": "Результаты моделирования"
 }

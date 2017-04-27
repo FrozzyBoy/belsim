@@ -14,16 +14,15 @@ export class DataModelComponent implements OnInit, AfterViewInit {
     @ViewChild('sidenav2') private extendedSidenav: any;
 
     public tabs: belsim.simulation.ITab[] = [
-        // { id: 'production', title: 'Производство' },
-        { id: 'production', title: 'Запасы' },
-        { id: 'production', title: 'Реализация' },
-        { id: 'production', title: 'Снабжение' },
-        { id: 'production', title: 'Финансы' },
-        { id: 'production', title: 'Кредиты' },
-        { id: 'production', title: 'Затраты' },
-        { id: 'production', title: 'Основные средства' },
-        { id: 'production', title: 'Налоги' },
-        { id: 'production', title: 'Счета' }
+        { id: 'production', title: 'Belsim.Tabs.Stock' },
+        { id: 'production', title: 'Belsim.Tabs.Realization' },
+        { id: 'production', title: 'Belsim.Tabs.Supply' },
+        { id: 'production', title: 'Belsim.Tabs.Finance' },
+        { id: 'production', title: 'Belsim.Tabs.Loans' },
+        { id: 'production', title: 'Belsim.Tabs.Expenses' },
+        { id: 'production', title: 'Belsim.Tabs.PrincipalСash' },
+        { id: 'production', title: 'Belsim.Tabs.Taxes' },
+        { id: 'production', title: 'Belsim.Tabs.Accounts' }
     ];
 
     public dataModel: belsim.api.IDataModel;

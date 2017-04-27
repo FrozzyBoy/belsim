@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
-let model = require('./model.json');
-let products = require('./products.json');
+let model = require('./modelData-en.json');
+let products = require('./products-en.json');
 
 @Injectable()
 export class DataModelService {

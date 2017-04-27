@@ -23,11 +23,15 @@
 	width: 350px;
 }
 
-.belsim-data-model__resources-header {
+.belsim-data-model__resources-consumption {
     margin: 16px 8px;
     font-size: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.belsim-data-model__resources-consumption-unit {
+    font-size: 14px;
 }
 
 .belsim-data-model__resource-input {

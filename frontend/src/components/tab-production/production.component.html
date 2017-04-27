@@ -1,19 +1,19 @@
 <form class="production" onSubmit="return false;">
 	<md-input-container class="production__input">
-		<input mdInput type="number" step="any" min="0" max="360" placeholder="Интервал планирования (дн.)" value="{{production.planningInterval}}"
-		 (change)="changePlanningInterval($event.target.value)">
+		<input mdInput type="number" step="any" min="0" max="360" placeholder="{{'Belsim.Tabs.Production.PlanningInterval' | translate}}"
+		 value="{{production.planningInterval}}" (change)="changePlanningInterval($event.target.value)">
 	</md-input-container>
 
 	<br>
 
 	<md-input-container class="production__input">
-		<input mdInput type="number" step="any" min="0" max="360" placeholder="Количество интервалов планирования (дн.)" value="{{production.planningIntervalsCount}}"
-		 (change)="changePlanningIntervalsCount($event.target.value)">
+		<input mdInput type="number" step="any" min="0" max="360" placeholder="{{'Belsim.Tabs.Production.NumberOfPlanningIntervals' | translate}}"
+		 value="{{production.planningIntervalsCount}}" (change)="changePlanningIntervalsCount($event.target.value)">
 	</md-input-container>
 
 	<br>
 
-	<div class="production__cycle">Производственный цикл</div>
+	<div class="production__cycle">{{'Belsim.Tabs.Production.ProductionCycle' | translate}}</div>
 
 	<table class="production__input" cellspacing="0">
 		<tr *ngFor="let productionCycle of production.cycle;let key = index">
@@ -22,7 +22,7 @@
 			</td>
 			<td>
 				<md-select class="production__input" [(ngModel)]="productionCycle.product.id" (change)="productChanged($event.value, productionCycle)"
-				 placeholder="Наименование продукта" name="md-select-production-{{key}}">
+				 placeholder="{{'Belsim.Tabs.Production.ProductName' | translate}}" name="md-select-production-{{key}}">
 					<md-option *ngFor="let product of products" [value]="product.id">
 						{{ product.name }}
 					</md-option>
@@ -30,7 +30,8 @@
 			</td>
 			<td>
 				<md-input-container class="production__input">
-					<input mdInput type="number" step="any" min="0" max="360" placeholder="Длительность цикла (дн.)" value="{{productionCycle.quantity}}">
+					<input mdInput type="number" step="any" min="0" max="360" placeholder="{{'Belsim.Tabs.Production.CycleTime' | translate}}"
+					 value="{{productionCycle.quantity}}">
 				</md-input-container>
 			</td>
 		</tr>
