@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Belsim Frontend App",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8880",
+    "start": "webpack-dev-server --inline --progress --port 8888",
     "build": "webpack --config webpack.config.js --progress --profile --bail",
     "update-webdriver": "webdriver-manager update",
     "postinstall": "npm run update-webdriver",

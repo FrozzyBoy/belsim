@@ -20,7 +20,7 @@ module.exports = {
 
 	output: {
 		path: `${__dirname}/../public/build`,
-		publicPath: 'http://localhost:8880/',
+		publicPath: 'http://localhost:8888/',
 		filename: '[name].js',
 		chunkFilename: '[id].chunk.js'
 	},

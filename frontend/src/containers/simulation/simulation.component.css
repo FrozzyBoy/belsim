@@ -44,3 +44,23 @@ belsim-simulation {
 .belsim-simulation__sidenav-item--active {
     background-color: #c7cfff;
 }
+
+.belsim-simulation__toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.belsim-simulation__toolbar-language {
+    background-color: rgba(0,0,0,.12);
+    border-radius: 2px;
+    padding: 4px 16px;
+}
+
+.belsim-simulation__toolbar-language.mat-select:focus:not(.mat-select-disabled) .mat-select-arrow,
+.belsim-simulation__toolbar-language .mat-select-value,
+.belsim-simulation__toolbar-language .mat-select-arrow {
+    color: white;
+}
+
+.belsim-simulation__toolbar-language .mat-select-underline {
+    display: none;
+}

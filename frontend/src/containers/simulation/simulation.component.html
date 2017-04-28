@@ -1,5 +1,13 @@
 <div class="belsim-simulation">
-	<md-toolbar class="belsim-simulation__toolbar">BelSim</md-toolbar>
+	<md-toolbar class="belsim-simulation__toolbar">
+		<span>BelSim</span>
+		<span class="belsim-simulation__toolbar-spacer"></span>
+		<md-select class="belsim-simulation__toolbar-language" [(ngModel)]="selectedLanguage" (change)="changeLanguage($event.value)">
+			<md-option *ngFor="let language of languages" [value]="language.key">
+				{{ language.value }}
+			</md-option>
+		</md-select>
+	</md-toolbar>
 	<md-sidenav-container class="belsim-simulation__sidenav-container">
 		<md-sidenav #sidenav mode="side" opened="true" class="belsim-simulation__sidenav">
 			<div class="belsim-simulation__content belsim-simulation__sidenav-content">

@@ -1,5 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
+import { TranslateService } from 'ng2-translate';
+
 @Component({
   selector: 'belsim-simulation',
   templateUrl: './simulation.component.html',
@@ -11,5 +13,20 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class SimulationComponent {
+
+  public languages: belsim.localization.ILanguage[] = [
+    { key: 'en', value: 'English' },
+    { key: 'ru', value: 'Русский' }
+  ];
+
+  public selectedLanguage: string = 'en';
+
+  public constructor(private translateService: TranslateService) {
+
+  }
+
+  public changeLanguage(languageKey: string) {
+    this.translateService.use(languageKey);
+  }
 
 }
