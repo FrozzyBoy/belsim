@@ -1,502 +1,5866 @@
-[
-  {
-    "Expt": 1,
-    "Run": 1,
-    "Speed": 850
-  },
-  {
-    "Expt": 1,
-    "Run": 2,
-    "Speed": 740
-  },
-  {
-    "Expt": 1,
-    "Run": 3,
-    "Speed": 900
-  },
-  {
-    "Expt": 1,
-    "Run": 4,
-    "Speed": 1070
-  },
-  {
-    "Expt": 1,
-    "Run": 5,
-    "Speed": 930
-  },
-  {
-    "Expt": 1,
-    "Run": 6,
-    "Speed": 850
-  },
-  {
-    "Expt": 1,
-    "Run": 7,
-    "Speed": 950
-  },
-  {
-    "Expt": 1,
-    "Run": 8,
-    "Speed": 980
-  },
-  {
-    "Expt": 1,
-    "Run": 9,
-    "Speed": 980
-  },
-  {
-    "Expt": 1,
-    "Run": 10,
-    "Speed": 880
-  },
-  {
-    "Expt": 1,
-    "Run": 11,
-    "Speed": 1000
-  },
-  {
-    "Expt": 1,
-    "Run": 12,
-    "Speed": 980
-  },
-  {
-    "Expt": 1,
-    "Run": 13,
-    "Speed": 930
-  },
-  {
-    "Expt": 1,
-    "Run": 14,
-    "Speed": 650
-  },
-  {
-    "Expt": 1,
-    "Run": 15,
-    "Speed": 760
-  },
-  {
-    "Expt": 1,
-    "Run": 16,
-    "Speed": 810
-  },
-  {
-    "Expt": 1,
-    "Run": 17,
-    "Speed": 1000
-  },
-  {
-    "Expt": 1,
-    "Run": 18,
-    "Speed": 1000
-  },
-  {
-    "Expt": 1,
-    "Run": 19,
-    "Speed": 960
-  },
-  {
-    "Expt": 1,
-    "Run": 20,
-    "Speed": 960
-  },
-  {
-    "Expt": 2,
-    "Run": 1,
-    "Speed": 960
-  },
-  {
-    "Expt": 2,
-    "Run": 2,
-    "Speed": 940
-  },
-  {
-    "Expt": 2,
-    "Run": 3,
-    "Speed": 960
-  },
-  {
-    "Expt": 2,
-    "Run": 4,
-    "Speed": 940
-  },
-  {
-    "Expt": 2,
-    "Run": 5,
-    "Speed": 880
-  },
-  {
-    "Expt": 2,
-    "Run": 6,
-    "Speed": 800
-  },
-  {
-    "Expt": 2,
-    "Run": 7,
-    "Speed": 850
-  },
-  {
-    "Expt": 2,
-    "Run": 8,
-    "Speed": 880
-  },
-  {
-    "Expt": 2,
-    "Run": 9,
-    "Speed": 900
-  },
-  {
-    "Expt": 2,
-    "Run": 10,
-    "Speed": 840
-  },
-  {
-    "Expt": 2,
-    "Run": 11,
-    "Speed": 830
-  },
-  {
-    "Expt": 2,
-    "Run": 12,
-    "Speed": 790
-  },
-  {
-    "Expt": 2,
-    "Run": 13,
-    "Speed": 810
-  },
-  {
-    "Expt": 2,
-    "Run": 14,
-    "Speed": 880
-  },
-  {
-    "Expt": 2,
-    "Run": 15,
-    "Speed": 880
-  },
-  {
-    "Expt": 2,
-    "Run": 16,
-    "Speed": 830
-  },
-  {
-    "Expt": 2,
-    "Run": 17,
-    "Speed": 800
-  },
-  {
-    "Expt": 2,
-    "Run": 18,
-    "Speed": 790
-  },
-  {
-    "Expt": 2,
-    "Run": 19,
-    "Speed": 760
-  },
-  {
-    "Expt": 2,
-    "Run": 20,
-    "Speed": 800
-  },
-  {
-    "Expt": 3,
-    "Run": 1,
-    "Speed": 880
-  },
-  {
-    "Expt": 3,
-    "Run": 2,
-    "Speed": 880
-  },
-  {
-    "Expt": 3,
-    "Run": 3,
-    "Speed": 880
-  },
-  {
-    "Expt": 3,
-    "Run": 4,
-    "Speed": 860
-  },
-  {
-    "Expt": 3,
-    "Run": 5,
-    "Speed": 720
-  },
-  {
-    "Expt": 3,
-    "Run": 6,
-    "Speed": 720
-  },
-  {
-    "Expt": 3,
-    "Run": 7,
-    "Speed": 620
-  },
-  {
-    "Expt": 3,
-    "Run": 8,
-    "Speed": 860
-  },
-  {
-    "Expt": 3,
-    "Run": 9,
-    "Speed": 970
-  },
-  {
-    "Expt": 3,
-    "Run": 10,
-    "Speed": 950
-  },
-  {
-    "Expt": 3,
-    "Run": 11,
-    "Speed": 880
-  },
-  {
-    "Expt": 3,
-    "Run": 12,
-    "Speed": 910
-  },
-  {
-    "Expt": 3,
-    "Run": 13,
-    "Speed": 850
-  },
-  {
-    "Expt": 3,
-    "Run": 14,
-    "Speed": 870
-  },
-  {
-    "Expt": 3,
-    "Run": 15,
-    "Speed": 840
-  },
-  {
-    "Expt": 3,
-    "Run": 16,
-    "Speed": 840
-  },
-  {
-    "Expt": 3,
-    "Run": 17,
-    "Speed": 850
-  },
-  {
-    "Expt": 3,
-    "Run": 18,
-    "Speed": 840
-  },
-  {
-    "Expt": 3,
-    "Run": 19,
-    "Speed": 840
-  },
-  {
-    "Expt": 3,
-    "Run": 20,
-    "Speed": 840
-  },
-  {
-    "Expt": 4,
-    "Run": 1,
-    "Speed": 890
-  },
-  {
-    "Expt": 4,
-    "Run": 2,
-    "Speed": 810
-  },
-  {
-    "Expt": 4,
-    "Run": 3,
-    "Speed": 810
-  },
-  {
-    "Expt": 4,
-    "Run": 4,
-    "Speed": 820
-  },
-  {
-    "Expt": 4,
-    "Run": 5,
-    "Speed": 800
-  },
-  {
-    "Expt": 4,
-    "Run": 6,
-    "Speed": 770
-  },
-  {
-    "Expt": 4,
-    "Run": 7,
-    "Speed": 760
-  },
-  {
-    "Expt": 4,
-    "Run": 8,
-    "Speed": 740
-  },
-  {
-    "Expt": 4,
-    "Run": 9,
-    "Speed": 750
-  },
-  {
-    "Expt": 4,
-    "Run": 10,
-    "Speed": 760
-  },
-  {
-    "Expt": 4,
-    "Run": 11,
-    "Speed": 910
-  },
-  {
-    "Expt": 4,
-    "Run": 12,
-    "Speed": 920
-  },
-  {
-    "Expt": 4,
-    "Run": 13,
-    "Speed": 890
-  },
-  {
-    "Expt": 4,
-    "Run": 14,
-    "Speed": 860
-  },
-  {
-    "Expt": 4,
-    "Run": 15,
-    "Speed": 880
-  },
-  {
-    "Expt": 4,
-    "Run": 16,
-    "Speed": 720
-  },
-  {
-    "Expt": 4,
-    "Run": 17,
-    "Speed": 840
-  },
-  {
-    "Expt": 4,
-    "Run": 18,
-    "Speed": 850
-  },
-  {
-    "Expt": 4,
-    "Run": 19,
-    "Speed": 850
-  },
-  {
-    "Expt": 4,
-    "Run": 20,
-    "Speed": 780
-  },
-  {
-    "Expt": 5,
-    "Run": 1,
-    "Speed": 890
-  },
-  {
-    "Expt": 5,
-    "Run": 2,
-    "Speed": 840
-  },
-  {
-    "Expt": 5,
-    "Run": 3,
-    "Speed": 780
-  },
-  {
-    "Expt": 5,
-    "Run": 4,
-    "Speed": 810
-  },
-  {
-    "Expt": 5,
-    "Run": 5,
-    "Speed": 760
-  },
-  {
-    "Expt": 5,
-    "Run": 6,
-    "Speed": 810
-  },
-  {
-    "Expt": 5,
-    "Run": 7,
-    "Speed": 790
-  },
-  {
-    "Expt": 5,
-    "Run": 8,
-    "Speed": 810
-  },
-  {
-    "Expt": 5,
-    "Run": 9,
-    "Speed": 820
-  },
-  {
-    "Expt": 5,
-    "Run": 10,
-    "Speed": 850
-  },
-  {
-    "Expt": 5,
-    "Run": 11,
-    "Speed": 870
-  },
-  {
-    "Expt": 5,
-    "Run": 12,
-    "Speed": 870
-  },
-  {
-    "Expt": 5,
-    "Run": 13,
-    "Speed": 810
-  },
-  {
-    "Expt": 5,
-    "Run": 14,
-    "Speed": 740
-  },
-  {
-    "Expt": 5,
-    "Run": 15,
-    "Speed": 810
-  },
-  {
-    "Expt": 5,
-    "Run": 16,
-    "Speed": 940
-  },
-  {
-    "Expt": 5,
-    "Run": 17,
-    "Speed": 950
-  },
-  {
-    "Expt": 5,
-    "Run": 18,
-    "Speed": 800
-  },
-  {
-    "Expt": 5,
-    "Run": 19,
-    "Speed": 810
-  },
-  {
-    "Expt": 5,
-    "Run": 20,
-    "Speed": 870
-  }
-]
+{
+  "creator": "Artyomka",
+  "timeStamp": "2017-04-16T19:44:49.801Z",
+  "data": [
+    {
+      "name": "_Баланс 110: Основные средства",
+      "values": [
+        {
+          "min": 30083.3,
+          "minQuarter": 30083.3,
+          "median": 30083.3,
+          "maxQuarter": 30083.3,
+          "max": 30083.3
+        },
+        {
+          "min": 30166.7,
+          "minQuarter": 30166.7,
+          "median": 30166.7,
+          "maxQuarter": 30166.7,
+          "max": 30166.7
+        },
+        {
+          "min": 30250,
+          "minQuarter": 30250,
+          "median": 30250,
+          "maxQuarter": 30250,
+          "max": 30250
+        },
+        {
+          "min": 30333.3,
+          "minQuarter": 30333.3,
+          "median": 30333.3,
+          "maxQuarter": 30333.3,
+          "max": 30333.3
+        },
+        {
+          "min": 30416.7,
+          "minQuarter": 30416.7,
+          "median": 30416.7,
+          "maxQuarter": 30416.7,
+          "max": 30416.7
+        },
+        {
+          "min": 30500,
+          "minQuarter": 30500,
+          "median": 30500,
+          "maxQuarter": 30500,
+          "max": 30500
+        },
+        {
+          "min": 30583.3,
+          "minQuarter": 30583.3,
+          "median": 30583.3,
+          "maxQuarter": 30583.3,
+          "max": 30583.3
+        },
+        {
+          "min": 30666.7,
+          "minQuarter": 30666.7,
+          "median": 30666.7,
+          "maxQuarter": 30666.7,
+          "max": 30666.7
+        },
+        {
+          "min": 30750,
+          "minQuarter": 30750,
+          "median": 30750,
+          "maxQuarter": 30750,
+          "max": 30750
+        },
+        {
+          "min": 30833.3,
+          "minQuarter": 30833.3,
+          "median": 30833.3,
+          "maxQuarter": 30833.3,
+          "max": 30833.3
+        },
+        {
+          "min": 30916.7,
+          "minQuarter": 30916.7,
+          "median": 30916.7,
+          "maxQuarter": 30916.7,
+          "max": 30916.7
+        },
+        {
+          "min": 41850,
+          "minQuarter": 41850,
+          "median": 41850,
+          "maxQuarter": 41850,
+          "max": 41850
+        },
+        {
+          "min": 41962.5,
+          "minQuarter": 41962.5,
+          "median": 41962.5,
+          "maxQuarter": 41962.5,
+          "max": 41962.5
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 120: Нематериальные активы",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 130: Доходные вложения в материальные ценности",
+      "values": [
+        {
+          "min": 10083.3,
+          "minQuarter": 10083.3,
+          "median": 10083.3,
+          "maxQuarter": 10083.3,
+          "max": 10083.3
+        },
+        {
+          "min": 10166.7,
+          "minQuarter": 10166.7,
+          "median": 10166.7,
+          "maxQuarter": 10166.7,
+          "max": 10166.7
+        },
+        {
+          "min": 10250,
+          "minQuarter": 10250,
+          "median": 10250,
+          "maxQuarter": 10250,
+          "max": 10250
+        },
+        {
+          "min": 10333.3,
+          "minQuarter": 10333.3,
+          "median": 10333.3,
+          "maxQuarter": 10333.3,
+          "max": 10333.3
+        },
+        {
+          "min": 10416.7,
+          "minQuarter": 10416.7,
+          "median": 10416.7,
+          "maxQuarter": 10416.7,
+          "max": 10416.7
+        },
+        {
+          "min": 10500,
+          "minQuarter": 10500,
+          "median": 10500,
+          "maxQuarter": 10500,
+          "max": 10500
+        },
+        {
+          "min": 10583.3,
+          "minQuarter": 10583.3,
+          "median": 10583.3,
+          "maxQuarter": 10583.3,
+          "max": 10583.3
+        },
+        {
+          "min": 10666.7,
+          "minQuarter": 10666.7,
+          "median": 10666.7,
+          "maxQuarter": 10666.7,
+          "max": 10666.7
+        },
+        {
+          "min": 10750,
+          "minQuarter": 10750,
+          "median": 10750,
+          "maxQuarter": 10750,
+          "max": 10750
+        },
+        {
+          "min": 10833.3,
+          "minQuarter": 10833.3,
+          "median": 10833.3,
+          "maxQuarter": 10833.3,
+          "max": 10833.3
+        },
+        {
+          "min": 10916.7,
+          "minQuarter": 10916.7,
+          "median": 10916.7,
+          "maxQuarter": 10916.7,
+          "max": 10916.7
+        },
+        {
+          "min": 14850,
+          "minQuarter": 14850,
+          "median": 14850,
+          "maxQuarter": 14850,
+          "max": 14850
+        },
+        {
+          "min": 14962.5,
+          "minQuarter": 14962.5,
+          "median": 14962.5,
+          "maxQuarter": 14962.5,
+          "max": 14962.5
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 140: Вложения во внеоборотные активы",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 150: Прочие внеоборотные активы",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 190: ИТОГО ВНЕОБОРОТНЫЕ АКТИВЫ",
+      "values": [
+        {
+          "min": 40166.7,
+          "minQuarter": 40166.7,
+          "median": 40166.7,
+          "maxQuarter": 40166.7,
+          "max": 40166.7
+        },
+        {
+          "min": 40333.3,
+          "minQuarter": 40333.3,
+          "median": 40333.3,
+          "maxQuarter": 40333.3,
+          "max": 40333.3
+        },
+        {
+          "min": 40500,
+          "minQuarter": 40500,
+          "median": 40500,
+          "maxQuarter": 40500,
+          "max": 40500
+        },
+        {
+          "min": 40666.7,
+          "minQuarter": 40666.7,
+          "median": 40666.7,
+          "maxQuarter": 40666.7,
+          "max": 40666.7
+        },
+        {
+          "min": 40833.3,
+          "minQuarter": 40833.3,
+          "median": 40833.3,
+          "maxQuarter": 40833.3,
+          "max": 40833.3
+        },
+        {
+          "min": 41000,
+          "minQuarter": 41000,
+          "median": 41000,
+          "maxQuarter": 41000,
+          "max": 41000
+        },
+        {
+          "min": 41166.7,
+          "minQuarter": 41166.7,
+          "median": 41166.7,
+          "maxQuarter": 41166.7,
+          "max": 41166.7
+        },
+        {
+          "min": 41333.3,
+          "minQuarter": 41333.3,
+          "median": 41333.3,
+          "maxQuarter": 41333.3,
+          "max": 41333.3
+        },
+        {
+          "min": 41500,
+          "minQuarter": 41500,
+          "median": 41500,
+          "maxQuarter": 41500,
+          "max": 41500
+        },
+        {
+          "min": 41666.7,
+          "minQuarter": 41666.7,
+          "median": 41666.7,
+          "maxQuarter": 41666.7,
+          "max": 41666.7
+        },
+        {
+          "min": 41833.3,
+          "minQuarter": 41833.3,
+          "median": 41833.3,
+          "maxQuarter": 41833.3,
+          "max": 41833.3
+        },
+        {
+          "min": 56700,
+          "minQuarter": 56700,
+          "median": 56700,
+          "maxQuarter": 56700,
+          "max": 56700
+        },
+        {
+          "min": 56925,
+          "minQuarter": 56925,
+          "median": 56925,
+          "maxQuarter": 56925,
+          "max": 56925
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 210: Запасы",
+      "values": [
+        {
+          "min": 10240,
+          "minQuarter": 10242.2,
+          "median": 10251.4,
+          "maxQuarter": 10261,
+          "max": 10388.6
+        },
+        {
+          "min": 8203.28,
+          "minQuarter": 8213.5,
+          "median": 8221.91,
+          "maxQuarter": 8231.35,
+          "max": 8353.79
+        },
+        {
+          "min": 7269.18,
+          "minQuarter": 7291.94,
+          "median": 7301.55,
+          "maxQuarter": 7312.33,
+          "max": 7346.9
+        },
+        {
+          "min": 6650.56,
+          "minQuarter": 6680.72,
+          "median": 6689.34,
+          "maxQuarter": 6706.67,
+          "max": 6756.72
+        },
+        {
+          "min": 6423.91,
+          "minQuarter": 6454.71,
+          "median": 6465.4,
+          "maxQuarter": 6482.04,
+          "max": 6531.5
+        },
+        {
+          "min": 5729.35,
+          "minQuarter": 5762.05,
+          "median": 5775.04,
+          "maxQuarter": 5797.83,
+          "max": 7119.28
+        },
+        {
+          "min": 4124.79,
+          "minQuarter": 4162.81,
+          "median": 4183.84,
+          "maxQuarter": 4218.36,
+          "max": 5493.68
+        },
+        {
+          "min": 2636.31,
+          "minQuarter": 2696.66,
+          "median": 2732.64,
+          "maxQuarter": 2777.62,
+          "max": 4033.95
+        },
+        {
+          "min": 1796.01,
+          "minQuarter": 1864.09,
+          "median": 1893.91,
+          "maxQuarter": 1943.99,
+          "max": 3199.04
+        },
+        {
+          "min": 1305.94,
+          "minQuarter": 1375.41,
+          "median": 1406.77,
+          "maxQuarter": 1456.17,
+          "max": 2707.17
+        },
+        {
+          "min": 1127.38,
+          "minQuarter": 1196.7,
+          "median": 1228.12,
+          "maxQuarter": 1277.45,
+          "max": 2528.76
+        },
+        {
+          "min": 2322.74,
+          "minQuarter": 2530.86,
+          "median": 2566.92,
+          "maxQuarter": 2626.12,
+          "max": 3764.55
+        },
+        {
+          "min": 3680.77,
+          "minQuarter": 3863.86,
+          "median": 3917.01,
+          "maxQuarter": 3968.19,
+          "max": 5129.83
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 211: сырье, материалы и другие аналогичные ценности",
+      "values": [
+        {
+          "min": 2686.36,
+          "minQuarter": 2693,
+          "median": 2693,
+          "maxQuarter": 2693,
+          "max": 2972
+        },
+        {
+          "min": 2005.56,
+          "minQuarter": 2016.59,
+          "median": 2025.28,
+          "maxQuarter": 2030,
+          "max": 2042.92
+        },
+        {
+          "min": 1154.16,
+          "minQuarter": 1174.15,
+          "median": 1184.4,
+          "maxQuarter": 1196.15,
+          "max": 1244.03
+        },
+        {
+          "min": 1105.62,
+          "minQuarter": 1126.73,
+          "median": 1136.69,
+          "maxQuarter": 1150.03,
+          "max": 1195.91
+        },
+        {
+          "min": 1033.83,
+          "minQuarter": 1056.27,
+          "median": 1066.71,
+          "maxQuarter": 1083.11,
+          "max": 1126.93
+        },
+        {
+          "min": 44.4783,
+          "minQuarter": 70.1928,
+          "median": 85.3013,
+          "maxQuarter": 115.751,
+          "max": 227
+        },
+        {
+          "min": -1855.56,
+          "minQuarter": -1808.01,
+          "median": -1775.89,
+          "maxQuarter": -1739.94,
+          "max": -1415.5
+        },
+        {
+          "min": -2580.57,
+          "minQuarter": -2525.32,
+          "median": -2489.07,
+          "maxQuarter": -2444.06,
+          "max": -2124.73
+        },
+        {
+          "min": -3207.29,
+          "minQuarter": -3148.32,
+          "median": -3110.68,
+          "maxQuarter": -3067.83,
+          "max": -2707.71
+        },
+        {
+          "min": -3230.77,
+          "minQuarter": -3172.26,
+          "median": -3133.56,
+          "maxQuarter": -3091.92,
+          "max": -2782.16
+        },
+        {
+          "min": -3230.77,
+          "minQuarter": -3172.26,
+          "median": -3133.56,
+          "maxQuarter": -3091.92,
+          "max": -2782.16
+        },
+        {
+          "min": -3230.77,
+          "minQuarter": -3172.26,
+          "median": -3133.56,
+          "maxQuarter": -3091.92,
+          "max": -2782.16
+        },
+        {
+          "min": -3230.77,
+          "minQuarter": -3172.26,
+          "median": -3133.56,
+          "maxQuarter": -3091.92,
+          "max": -2782.16
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 212: животные на выращивании и откорме",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 213: Незавершенное производство (издержки обращения)",
+      "values": [
+        {
+          "min": 7416.58,
+          "minQuarter": 7549.17,
+          "median": 7557.86,
+          "maxQuarter": 7567.82,
+          "max": 7575.3
+        },
+        {
+          "min": 6181.12,
+          "minQuarter": 6191.13,
+          "median": 6197.16,
+          "maxQuarter": 6207.06,
+          "max": 6340.03
+        },
+        {
+          "min": 6092.33,
+          "minQuarter": 6107.82,
+          "median": 6114.5,
+          "maxQuarter": 6124.66,
+          "max": 6136.37
+        },
+        {
+          "min": 5543.17,
+          "minQuarter": 5544.91,
+          "median": 5553.4,
+          "maxQuarter": 5563.02,
+          "max": 5569.75
+        },
+        {
+          "min": 5377.08,
+          "minQuarter": 5389.58,
+          "median": 5396.91,
+          "maxQuarter": 5407.13,
+          "max": 5415.03
+        },
+        {
+          "min": 5629.08,
+          "minQuarter": 5678.79,
+          "median": 5685.06,
+          "maxQuarter": 5694.94,
+          "max": 7041.79
+        },
+        {
+          "min": 5800.49,
+          "minQuarter": 5949.15,
+          "median": 5964.4,
+          "maxQuarter": 5979.17,
+          "max": 7292.78
+        },
+        {
+          "min": 5175.22,
+          "minQuarter": 5210.83,
+          "median": 5218.12,
+          "maxQuarter": 5227.81,
+          "max": 6542.6
+        },
+        {
+          "min": 4825.41,
+          "minQuarter": 5000.81,
+          "median": 5005.55,
+          "maxQuarter": 5016.89,
+          "max": 6334.61
+        },
+        {
+          "min": 4532.15,
+          "minQuarter": 4532.83,
+          "median": 4541.85,
+          "maxQuarter": 4551.52,
+          "max": 5866.23
+        },
+        {
+          "min": 4354,
+          "minQuarter": 4354,
+          "median": 4362.7,
+          "maxQuarter": 4372.66,
+          "max": 5687.82
+        },
+        {
+          "min": 5538.47,
+          "minQuarter": 5689.95,
+          "median": 5707.13,
+          "maxQuarter": 5720.24,
+          "max": 6923.6
+        },
+        {
+          "min": 6797.51,
+          "minQuarter": 7021.82,
+          "median": 7053.45,
+          "maxQuarter": 7073.91,
+          "max": 8288.89
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 220: Налоги по приобретенным ценностям",
+      "values": [
+        {
+          "min": 9779.71,
+          "minQuarter": 9989.89,
+          "median": 9990.13,
+          "maxQuarter": 9990.13,
+          "max": 9990.54
+        },
+        {
+          "min": 9832.41,
+          "minQuarter": 10100.6,
+          "median": 10306,
+          "maxQuarter": 10309.7,
+          "max": 10315.7
+        },
+        {
+          "min": 9984.27,
+          "minQuarter": 10513.7,
+          "median": 10756.2,
+          "maxQuarter": 10766.9,
+          "max": 10780.5
+        },
+        {
+          "min": 10222.3,
+          "minQuarter": 10752.1,
+          "median": 10994.4,
+          "maxQuarter": 11006.9,
+          "max": 11025.9
+        },
+        {
+          "min": 10411.8,
+          "minQuarter": 10974.6,
+          "median": 11043,
+          "maxQuarter": 11244.4,
+          "max": 11283.8
+        },
+        {
+          "min": 10690.4,
+          "minQuarter": 11327.4,
+          "median": 11478,
+          "maxQuarter": 11646.1,
+          "max": 11727.9
+        },
+        {
+          "min": 10476.2,
+          "minQuarter": 11667.5,
+          "median": 11986.9,
+          "maxQuarter": 12193.5,
+          "max": 12404.2
+        },
+        {
+          "min": 10681.7,
+          "minQuarter": 11992.2,
+          "median": 12285,
+          "maxQuarter": 12542.8,
+          "max": 12775.5
+        },
+        {
+          "min": 10814,
+          "minQuarter": 12264.4,
+          "median": 12581.1,
+          "maxQuarter": 12842.4,
+          "max": 13114.2
+        },
+        {
+          "min": 11230.1,
+          "minQuarter": 12473.5,
+          "median": 12772.8,
+          "maxQuarter": 13065.7,
+          "max": 13388
+        },
+        {
+          "min": 11526.8,
+          "minQuarter": 12734.6,
+          "median": 13012.1,
+          "maxQuarter": 13290.3,
+          "max": 13637.7
+        },
+        {
+          "min": 11806.2,
+          "minQuarter": 13013.3,
+          "median": 13269.5,
+          "maxQuarter": 13540.1,
+          "max": 13917.8
+        },
+        {
+          "min": 11806.2,
+          "minQuarter": 13291.6,
+          "median": 13571.7,
+          "maxQuarter": 13816.2,
+          "max": 14183.9
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 230: Готовая продукция и товары",
+      "values": [
+        {
+          "min": 5525,
+          "minQuarter": 5525,
+          "median": 5525,
+          "maxQuarter": 5525,
+          "max": 5525
+        },
+        {
+          "min": 10154.2,
+          "minQuarter": 10373.9,
+          "median": 10393.6,
+          "maxQuarter": 10420.4,
+          "max": 10449.3
+        },
+        {
+          "min": 14124.5,
+          "minQuarter": 14267.4,
+          "median": 14302,
+          "maxQuarter": 14338,
+          "max": 14392.2
+        },
+        {
+          "min": 16267,
+          "minQuarter": 16413.6,
+          "median": 16456.4,
+          "maxQuarter": 16493.1,
+          "max": 16551.7
+        },
+        {
+          "min": 17826.8,
+          "minQuarter": 18793.4,
+          "median": 18862.5,
+          "maxQuarter": 18919.9,
+          "max": 18977.3
+        },
+        {
+          "min": 20046.5,
+          "minQuarter": 21931.6,
+          "median": 21999.9,
+          "maxQuarter": 22069.3,
+          "max": 22158.1
+        },
+        {
+          "min": 25417,
+          "minQuarter": 28010.5,
+          "median": 28120.4,
+          "maxQuarter": 28180.1,
+          "max": 28322.7
+        },
+        {
+          "min": 30063.5,
+          "minQuarter": 32586.7,
+          "median": 32699.9,
+          "maxQuarter": 32777.4,
+          "max": 32943.1
+        },
+        {
+          "min": 33546.5,
+          "minQuarter": 36078.2,
+          "median": 36191.7,
+          "maxQuarter": 36269.9,
+          "max": 36494.6
+        },
+        {
+          "min": 35602.6,
+          "minQuarter": 38140.1,
+          "median": 38271.8,
+          "maxQuarter": 38353.9,
+          "max": 38600.4
+        },
+        {
+          "min": 37027,
+          "minQuarter": 39636.4,
+          "median": 39763.5,
+          "maxQuarter": 39858.7,
+          "max": 40095.7
+        },
+        {
+          "min": 37027,
+          "minQuarter": 39636.4,
+          "median": 39763.5,
+          "maxQuarter": 39858.7,
+          "max": 40095.7
+        },
+        {
+          "min": 37027,
+          "minQuarter": 39636.4,
+          "median": 39763.5,
+          "maxQuarter": 39858.7,
+          "max": 40095.7
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 240: Товары отгруженные, выполненные работы, оказанные услуги",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 251: Дебиторская задолженность расчеты с покупателями и заказчиками",
+      "values": [
+        {
+          "min": 4335,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3484.28,
+          "minQuarter": 4335,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 2416.97,
+          "minQuarter": 4160.37,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 2416.97,
+          "minQuarter": 4160.37,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 2416.97,
+          "minQuarter": 4160.37,
+          "median": 4912.51,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 1849.83,
+          "minQuarter": 3956.05,
+          "median": 4909.99,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": -545.048,
+          "minQuarter": 3075.34,
+          "median": 4247.12,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": -545.048,
+          "minQuarter": 2916.27,
+          "median": 4073.43,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": -1309.59,
+          "minQuarter": 2916.27,
+          "median": 4023.42,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": -1309.59,
+          "minQuarter": 2916.27,
+          "median": 4010.11,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": -1309.59,
+          "minQuarter": 2916.27,
+          "median": 4010.11,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": -1309.59,
+          "minQuarter": 2916.27,
+          "median": 4010.11,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": -1309.59,
+          "minQuarter": 2916.27,
+          "median": 4010.11,
+          "maxQuarter": 5000,
+          "max": 5000
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 252: Расчеты с учредителями по вкладам в уставный фонд",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 253: Дебиторская задолженность расчеты с разными дебиторами и кредиторами",
+      "values": [
+        {
+          "min": 4790,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4521.35,
+          "minQuarter": 4790,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4184.31,
+          "minQuarter": 4734.85,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4184.31,
+          "minQuarter": 4734.85,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4184.31,
+          "minQuarter": 4734.85,
+          "median": 4972.37,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4005.21,
+          "minQuarter": 4670.33,
+          "median": 4971.57,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3248.93,
+          "minQuarter": 4392.21,
+          "median": 4762.25,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3248.93,
+          "minQuarter": 4341.98,
+          "median": 4707.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4691.61,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4687.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4687.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4687.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4687.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 260: Краткосрочне финансовые вложения",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 270: Денежные средства",
+      "values": [
+        {
+          "min": 5056.78,
+          "minQuarter": 5059.2,
+          "median": 5059.2,
+          "maxQuarter": 5060.78,
+          "max": 5936.72
+        },
+        {
+          "min": -18495.5,
+          "minQuarter": -16759.1,
+          "median": -16726.4,
+          "maxQuarter": -15080,
+          "max": -12880.3
+        },
+        {
+          "min": -22769.6,
+          "minQuarter": -22692.3,
+          "median": -22603.9,
+          "maxQuarter": -20540.7,
+          "max": -15755.3
+        },
+        {
+          "min": -27625,
+          "minQuarter": -27490.2,
+          "median": -27311,
+          "maxQuarter": -25150.3,
+          "max": -20217.6
+        },
+        {
+          "min": -33395.5,
+          "minQuarter": -31414,
+          "median": -30562.1,
+          "maxQuarter": -28188.4,
+          "max": -22647.5
+        },
+        {
+          "min": -38531.6,
+          "minQuarter": -38215.8,
+          "median": -36011.6,
+          "maxQuarter": -34934.1,
+          "max": -28851
+        },
+        {
+          "min": -44272.4,
+          "minQuarter": -43755.3,
+          "median": -40999.8,
+          "maxQuarter": -37825.1,
+          "max": -27530
+        },
+        {
+          "min": -51066,
+          "minQuarter": -48415.7,
+          "median": -46089.3,
+          "maxQuarter": -42236.2,
+          "max": -31088.4
+        },
+        {
+          "min": -58850.1,
+          "minQuarter": -54816.5,
+          "median": -52683.8,
+          "maxQuarter": -48794.1,
+          "max": -32549.2
+        },
+        {
+          "min": -66355.5,
+          "minQuarter": -60825.4,
+          "median": -58363.5,
+          "maxQuarter": -54016.1,
+          "max": -42410.5
+        },
+        {
+          "min": -74304.5,
+          "minQuarter": -67784.9,
+          "median": -64228.1,
+          "maxQuarter": -60146.4,
+          "max": -47504
+        },
+        {
+          "min": -82660.6,
+          "minQuarter": -75858,
+          "median": -71247,
+          "maxQuarter": -68215.8,
+          "max": -52710.9
+        },
+        {
+          "min": -91383.1,
+          "minQuarter": -85382.7,
+          "median": -80549.1,
+          "maxQuarter": -75104.5,
+          "max": -55683.6
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 280: Прочие оборотные активы",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 290: ИТОГО ОБОРОТНЫЕ АКТИВЫ",
+      "values": [
+        {
+          "min": 40464.8,
+          "minQuarter": 40816.5,
+          "median": 40820.5,
+          "maxQuarter": 40833.4,
+          "max": 40841.3
+        },
+        {
+          "min": 19037.4,
+          "minQuarter": 22160.3,
+          "median": 22193.6,
+          "maxQuarter": 22742.3,
+          "max": 23619.5
+        },
+        {
+          "min": 19610,
+          "minQuarter": 19686.3,
+          "median": 19739,
+          "maxQuarter": 20521.3,
+          "max": 22447.4
+        },
+        {
+          "min": 16589.1,
+          "minQuarter": 16659.4,
+          "median": 16716.1,
+          "maxQuarter": 17727.9,
+          "max": 19791.3
+        },
+        {
+          "min": 13301.4,
+          "minQuarter": 14419.8,
+          "median": 15347.9,
+          "maxQuarter": 16683.2,
+          "max": 20795.8
+        },
+        {
+          "min": 11024,
+          "minQuarter": 11208.2,
+          "median": 12282.5,
+          "maxQuarter": 13295.1,
+          "max": 17108.4
+        },
+        {
+          "min": 10368.7,
+          "minQuarter": 10695.8,
+          "median": 12018.7,
+          "maxQuarter": 13370.8,
+          "max": 17842.7
+        },
+        {
+          "min": 7111.38,
+          "minQuarter": 8831.75,
+          "median": 10037.8,
+          "maxQuarter": 12208.9,
+          "max": 17606.3
+        },
+        {
+          "min": 2308.25,
+          "minQuarter": 5478.49,
+          "median": 6577.52,
+          "maxQuarter": 8737.55,
+          "max": 17874
+        },
+        {
+          "min": -3240.41,
+          "minQuarter": 530.238,
+          "median": 3012.61,
+          "maxQuarter": 6146.26,
+          "max": 14072.2
+        },
+        {
+          "min": -9641.88,
+          "minQuarter": -4506.53,
+          "median": -2177.92,
+          "maxQuarter": 1689.26,
+          "max": 9281.84
+        },
+        {
+          "min": -16394.3,
+          "minQuarter": -10979.5,
+          "median": -7897.12,
+          "maxQuarter": -5029.42,
+          "max": 5729.77
+        },
+        {
+          "min": -23693.7,
+          "minQuarter": -18471.1,
+          "median": -14727.9,
+          "maxQuarter": -11033,
+          "max": 1610.56
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 299: Баланс АКТИВОВ",
+      "values": []
+    },
+    {
+      "name": "_Баланс 510: Уставный фонд (капитал)",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 520: Резервный фонд",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 530: Добавочный фонд",
+      "values": [
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 6575,
+          "minQuarter": 6575,
+          "median": 6575,
+          "maxQuarter": 6575,
+          "max": 6575
+        },
+        {
+          "min": 6575,
+          "minQuarter": 6575,
+          "median": 6575,
+          "maxQuarter": 6575,
+          "max": 6575
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 540: Нераспределенная прибыль",
+      "values": [
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 6575,
+          "minQuarter": 6575,
+          "median": 6575,
+          "maxQuarter": 6575,
+          "max": 6575
+        },
+        {
+          "min": 6575,
+          "minQuarter": 6575,
+          "median": 6575,
+          "maxQuarter": 6575,
+          "max": 6575
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 550: Непокрытый убыток",
+      "values": [
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 5000,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 6575,
+          "minQuarter": 6575,
+          "median": 6575,
+          "maxQuarter": 6575,
+          "max": 6575
+        },
+        {
+          "min": 6575,
+          "minQuarter": 6575,
+          "median": 6575,
+          "maxQuarter": 6575,
+          "max": 6575
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 560: Целевое финансирование",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 590: ИТОГО СОБСТВЕННЫЙ КАПИТАЛ",
+      "values": [
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 15000,
+          "minQuarter": 15000,
+          "median": 15000,
+          "maxQuarter": 15000,
+          "max": 15000
+        },
+        {
+          "min": 19725,
+          "minQuarter": 19725,
+          "median": 19725,
+          "maxQuarter": 19725,
+          "max": 19725
+        },
+        {
+          "min": 19725,
+          "minQuarter": 19725,
+          "median": 19725,
+          "maxQuarter": 19725,
+          "max": 19725
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 610: Резервы предстоящих расходов",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 620: Расходы будущих периодов",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 630: Доходы будущих периодов",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 640: Прибыль отчетного года",
+      "values": [
+        {
+          "min": -6437.52,
+          "minQuarter": -6437.52,
+          "median": -6437.52,
+          "maxQuarter": -6437.52,
+          "max": -6437.52
+        },
+        {
+          "min": -0.034722,
+          "minQuarter": -0.034722,
+          "median": -0.034722,
+          "maxQuarter": -0.034722,
+          "max": -0.034722
+        },
+        {
+          "min": 927.991,
+          "minQuarter": 1008.66,
+          "median": 1131.24,
+          "maxQuarter": 1133.08,
+          "max": 1521.93
+        },
+        {
+          "min": 333.406,
+          "minQuarter": 552.933,
+          "median": 656.834,
+          "maxQuarter": 678.805,
+          "max": 699.128
+        },
+        {
+          "min": 812.219,
+          "minQuarter": 1013.99,
+          "median": 1054.96,
+          "maxQuarter": 1109.91,
+          "max": 1158.34
+        },
+        {
+          "min": 642.912,
+          "minQuarter": 949.874,
+          "median": 1065.77,
+          "maxQuarter": 1205.54,
+          "max": 1475.54
+        },
+        {
+          "min": 811.573,
+          "minQuarter": 1251.47,
+          "median": 1370.36,
+          "maxQuarter": 1540.11,
+          "max": 2064.65
+        },
+        {
+          "min": 987.406,
+          "minQuarter": 1416.57,
+          "median": 1544.81,
+          "maxQuarter": 1688.5,
+          "max": 1932.67
+        },
+        {
+          "min": 995.135,
+          "minQuarter": 1573.09,
+          "median": 1720.74,
+          "maxQuarter": 1895.98,
+          "max": 2337.14
+        },
+        {
+          "min": 1198.7,
+          "minQuarter": 1997.95,
+          "median": 2189.72,
+          "maxQuarter": 2429.91,
+          "max": 3148.78
+        },
+        {
+          "min": 1466.47,
+          "minQuarter": 2224.97,
+          "median": 2492.11,
+          "maxQuarter": 2833.13,
+          "max": 3381.54
+        },
+        {
+          "min": 1899.23,
+          "minQuarter": 2618.64,
+          "median": 2977.44,
+          "maxQuarter": 3236.05,
+          "max": 4020.95
+        },
+        {
+          "min": 2148.44,
+          "minQuarter": 3218.71,
+          "median": 3550.47,
+          "maxQuarter": 3898.35,
+          "max": 5068.07
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 650: Убыток отчетного года",
+      "values": [
+        {
+          "min": -6437.52,
+          "minQuarter": -6437.52,
+          "median": -6437.52,
+          "maxQuarter": -6437.52,
+          "max": -6437.52
+        },
+        {
+          "min": -0.034722,
+          "minQuarter": -0.034722,
+          "median": -0.034722,
+          "maxQuarter": -0.034722,
+          "max": -0.034722
+        },
+        {
+          "min": 927.991,
+          "minQuarter": 1008.66,
+          "median": 1131.24,
+          "maxQuarter": 1133.08,
+          "max": 1521.93
+        },
+        {
+          "min": 333.406,
+          "minQuarter": 552.933,
+          "median": 656.834,
+          "maxQuarter": 678.805,
+          "max": 699.128
+        },
+        {
+          "min": 812.219,
+          "minQuarter": 1013.99,
+          "median": 1054.96,
+          "maxQuarter": 1109.91,
+          "max": 1158.34
+        },
+        {
+          "min": 642.912,
+          "minQuarter": 949.874,
+          "median": 1065.77,
+          "maxQuarter": 1205.54,
+          "max": 1475.54
+        },
+        {
+          "min": 811.573,
+          "minQuarter": 1251.47,
+          "median": 1370.36,
+          "maxQuarter": 1540.11,
+          "max": 2064.65
+        },
+        {
+          "min": 987.406,
+          "minQuarter": 1416.57,
+          "median": 1544.81,
+          "maxQuarter": 1688.5,
+          "max": 1932.67
+        },
+        {
+          "min": 995.135,
+          "minQuarter": 1573.09,
+          "median": 1720.74,
+          "maxQuarter": 1895.98,
+          "max": 2337.14
+        },
+        {
+          "min": 1198.7,
+          "minQuarter": 1997.95,
+          "median": 2189.72,
+          "maxQuarter": 2429.91,
+          "max": 3148.78
+        },
+        {
+          "min": 1466.47,
+          "minQuarter": 2224.97,
+          "median": 2492.11,
+          "maxQuarter": 2833.13,
+          "max": 3381.54
+        },
+        {
+          "min": 1899.23,
+          "minQuarter": 2618.64,
+          "median": 2977.44,
+          "maxQuarter": 3236.05,
+          "max": 4020.95
+        },
+        {
+          "min": 2148.44,
+          "minQuarter": 3218.71,
+          "median": 3550.47,
+          "maxQuarter": 3898.35,
+          "max": 5068.07
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 690: ИТОГО ДОЛГОСРОЧНЫЕ ОБЯЗАТЕЛЬСТВА",
+      "values": [
+        {
+          "min": -12875,
+          "minQuarter": -12875,
+          "median": -12875,
+          "maxQuarter": -12875,
+          "max": -12875
+        },
+        {
+          "min": -0.069444,
+          "minQuarter": -0.069444,
+          "median": -0.069444,
+          "maxQuarter": -0.069444,
+          "max": -0.069444
+        },
+        {
+          "min": 1855.98,
+          "minQuarter": 2017.33,
+          "median": 2262.48,
+          "maxQuarter": 2266.17,
+          "max": 3043.85
+        },
+        {
+          "min": 666.812,
+          "minQuarter": 1105.87,
+          "median": 1313.67,
+          "maxQuarter": 1357.61,
+          "max": 1398.26
+        },
+        {
+          "min": 1624.44,
+          "minQuarter": 2027.99,
+          "median": 2109.91,
+          "maxQuarter": 2219.82,
+          "max": 2316.68
+        },
+        {
+          "min": 1285.82,
+          "minQuarter": 1899.75,
+          "median": 2131.55,
+          "maxQuarter": 2411.08,
+          "max": 2951.09
+        },
+        {
+          "min": 1623.15,
+          "minQuarter": 2502.93,
+          "median": 2740.71,
+          "maxQuarter": 3080.21,
+          "max": 4129.3
+        },
+        {
+          "min": 1974.81,
+          "minQuarter": 2833.13,
+          "median": 3089.62,
+          "maxQuarter": 3377,
+          "max": 3865.34
+        },
+        {
+          "min": 1990.27,
+          "minQuarter": 3146.18,
+          "median": 3441.47,
+          "maxQuarter": 3791.97,
+          "max": 4674.28
+        },
+        {
+          "min": 2397.4,
+          "minQuarter": 3995.9,
+          "median": 4379.44,
+          "maxQuarter": 4859.83,
+          "max": 6297.55
+        },
+        {
+          "min": 2932.94,
+          "minQuarter": 4449.95,
+          "median": 4984.22,
+          "maxQuarter": 5666.26,
+          "max": 6763.08
+        },
+        {
+          "min": 3798.46,
+          "minQuarter": 5237.28,
+          "median": 5954.88,
+          "maxQuarter": 6472.11,
+          "max": 8041.9
+        },
+        {
+          "min": 4296.88,
+          "minQuarter": 6437.43,
+          "median": 7100.93,
+          "maxQuarter": 7796.69,
+          "max": 10136.1
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 710: Краткосрочные кредиты и займы",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 720: Долгосрочные кредиты и займы",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 731: Кредиторская задолженность, поставщики и подрядчики",
+      "values": [
+        {
+          "min": 5990,
+          "minQuarter": 5990,
+          "median": 5999.62,
+          "maxQuarter": 6009.02,
+          "max": 6155.31
+        },
+        {
+          "min": 6475.79,
+          "minQuarter": 6526.34,
+          "median": 6544.14,
+          "maxQuarter": 6559.08,
+          "max": 6701.73
+        },
+        {
+          "min": 6034.06,
+          "minQuarter": 6149.39,
+          "median": 6168.39,
+          "maxQuarter": 6179.98,
+          "max": 6512.37
+        },
+        {
+          "min": 6061.77,
+          "minQuarter": 6206.24,
+          "median": 6222.4,
+          "maxQuarter": 6233.07,
+          "max": 6591.34
+        },
+        {
+          "min": 5924.52,
+          "minQuarter": 6113.37,
+          "median": 6135.22,
+          "maxQuarter": 7064.13,
+          "max": 7704.84
+        },
+        {
+          "min": 5840,
+          "minQuarter": 6123.22,
+          "median": 6159.27,
+          "maxQuarter": 6328.68,
+          "max": 7432.47
+        },
+        {
+          "min": 5718.36,
+          "minQuarter": 6308.7,
+          "median": 6418.06,
+          "maxQuarter": 6742.51,
+          "max": 7665.91
+        },
+        {
+          "min": 5875.23,
+          "minQuarter": 6520.13,
+          "median": 6756.28,
+          "maxQuarter": 7325.4,
+          "max": 8488.55
+        },
+        {
+          "min": 5667.57,
+          "minQuarter": 6425.88,
+          "median": 6937.06,
+          "maxQuarter": 7611.44,
+          "max": 8984.86
+        },
+        {
+          "min": 6076.22,
+          "minQuarter": 6545.71,
+          "median": 7240.68,
+          "maxQuarter": 7751.13,
+          "max": 9880.86
+        },
+        {
+          "min": 5974.9,
+          "minQuarter": 6632.09,
+          "median": 7326.61,
+          "maxQuarter": 7813.61,
+          "max": 10367.1
+        },
+        {
+          "min": 6088.18,
+          "minQuarter": 6492.77,
+          "median": 7217.11,
+          "maxQuarter": 7850.7,
+          "max": 10356.5
+        },
+        {
+          "min": 6088.18,
+          "minQuarter": 6478.29,
+          "median": 7181.22,
+          "maxQuarter": 7810.09,
+          "max": 10356.8
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 732: Кредиторская задолженность, расчеты по оплате труда",
+      "values": [
+        {
+          "min": 5010,
+          "minQuarter": 5010,
+          "median": 5010.09,
+          "maxQuarter": 5010.19,
+          "max": 5010.25
+        },
+        {
+          "min": 5489.04,
+          "minQuarter": 5529.46,
+          "median": 5533.91,
+          "maxQuarter": 5538.9,
+          "max": 5544.87
+        },
+        {
+          "min": 5120.81,
+          "minQuarter": 5125.52,
+          "median": 5127.36,
+          "maxQuarter": 5128.55,
+          "max": 5178.53
+        },
+        {
+          "min": 5145.8,
+          "minQuarter": 5154.59,
+          "median": 5157.03,
+          "maxQuarter": 5158.86,
+          "max": 5186.95
+        },
+        {
+          "min": 5018.24,
+          "minQuarter": 5019.26,
+          "median": 5019.54,
+          "maxQuarter": 5019.76,
+          "max": 5178.08
+        },
+        {
+          "min": 5011.23,
+          "minQuarter": 5023.34,
+          "median": 5023.58,
+          "maxQuarter": 5023.75,
+          "max": 5138.16
+        },
+        {
+          "min": 5158.87,
+          "minQuarter": 5180.65,
+          "median": 5183.63,
+          "maxQuarter": 5185.07,
+          "max": 5196.94
+        },
+        {
+          "min": 5276.22,
+          "minQuarter": 5334.51,
+          "median": 5339.93,
+          "maxQuarter": 5343.4,
+          "max": 5524.53
+        },
+        {
+          "min": 5129.14,
+          "minQuarter": 5135.14,
+          "median": 5137.13,
+          "maxQuarter": 5151.84,
+          "max": 5660.81
+        },
+        {
+          "min": 5062.21,
+          "minQuarter": 5121.13,
+          "median": 5122.64,
+          "maxQuarter": 5163.29,
+          "max": 5556.34
+        },
+        {
+          "min": 5015.72,
+          "minQuarter": 5016.95,
+          "median": 5017.17,
+          "maxQuarter": 5051.87,
+          "max": 5452.2
+        },
+        {
+          "min": 5011.63,
+          "minQuarter": 5013.11,
+          "median": 5013.33,
+          "maxQuarter": 5029.14,
+          "max": 5300.06
+        },
+        {
+          "min": 5012.12,
+          "minQuarter": 5013.48,
+          "median": 5013.64,
+          "maxQuarter": 5013.78,
+          "max": 5166.46
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 733: Кредиторская задолженность, расчеты по прочим операциям с персоналом",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 734: Кредиторская задолженность, расчеты по налогам и сборам",
+      "values": [
+        {
+          "min": 6795.84,
+          "minQuarter": 6795.84,
+          "median": 6795.84,
+          "maxQuarter": 6795.85,
+          "max": 6795.85
+        },
+        {
+          "min": 670.487,
+          "minQuarter": 719.272,
+          "median": 754.662,
+          "maxQuarter": 755.163,
+          "max": 884.302
+        },
+        {
+          "min": 678.354,
+          "minQuarter": 799.811,
+          "median": 845.578,
+          "maxQuarter": 847.67,
+          "max": 902.084
+        },
+        {
+          "min": 959.139,
+          "minQuarter": 1119.46,
+          "median": 1199.37,
+          "maxQuarter": 1203.18,
+          "max": 1971.38
+        },
+        {
+          "min": 938.951,
+          "minQuarter": 1145.55,
+          "median": 1223.3,
+          "maxQuarter": 2095.55,
+          "max": 2364.42
+        },
+        {
+          "min": 1124.14,
+          "minQuarter": 1339.72,
+          "median": 1397.1,
+          "maxQuarter": 1437.65,
+          "max": 3416.7
+        },
+        {
+          "min": 1103.54,
+          "minQuarter": 1387.6,
+          "median": 1493.23,
+          "maxQuarter": 1562.13,
+          "max": 2805.64
+        },
+        {
+          "min": 1009.9,
+          "minQuarter": 1513.01,
+          "median": 1661.96,
+          "maxQuarter": 2281.38,
+          "max": 3230.98
+        },
+        {
+          "min": 1362.65,
+          "minQuarter": 1742.79,
+          "median": 1965.5,
+          "maxQuarter": 2751.04,
+          "max": 4334.75
+        },
+        {
+          "min": 1437.64,
+          "minQuarter": 1998.69,
+          "median": 2489.3,
+          "maxQuarter": 3414.12,
+          "max": 5018.38
+        },
+        {
+          "min": 1717.56,
+          "minQuarter": 2466.76,
+          "median": 3221.14,
+          "maxQuarter": 4203.19,
+          "max": 6424.36
+        },
+        {
+          "min": 1959.65,
+          "minQuarter": 2742.91,
+          "median": 3142.22,
+          "maxQuarter": 4738.01,
+          "max": 8017.08
+        },
+        {
+          "min": 2449.28,
+          "minQuarter": 3376.24,
+          "median": 4249.12,
+          "maxQuarter": 5496.41,
+          "max": 9945.86
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 735: Кредиторская задолженность, по социальному страхованию и обеспечению",
+      "values": [
+        {
+          "min": 5003.5,
+          "minQuarter": 5003.5,
+          "median": 5003.53,
+          "maxQuarter": 5003.57,
+          "max": 5003.59
+        },
+        {
+          "min": 171.165,
+          "minQuarter": 185.311,
+          "median": 186.869,
+          "maxQuarter": 188.616,
+          "max": 190.704
+        },
+        {
+          "min": 42.285,
+          "minQuarter": 43.9336,
+          "median": 44.5976,
+          "maxQuarter": 44.9962,
+          "max": 82.6754
+        },
+        {
+          "min": 51.0289,
+          "minQuarter": 54.0852,
+          "median": 54.9164,
+          "maxQuarter": 55.5421,
+          "max": 55.9925
+        },
+        {
+          "min": 6.43562,
+          "minQuarter": 6.74866,
+          "median": 6.84973,
+          "maxQuarter": 42.4559,
+          "max": 62.7929
+        },
+        {
+          "min": 3.9302,
+          "minQuarter": 8.16903,
+          "median": 8.25424,
+          "maxQuarter": 8.31374,
+          "max": 15.0802
+        },
+        {
+          "min": 55.6044,
+          "minQuarter": 63.1721,
+          "median": 64.2437,
+          "maxQuarter": 64.7758,
+          "max": 73.2375
+        },
+        {
+          "min": 96.6766,
+          "minQuarter": 117.547,
+          "median": 119.085,
+          "maxQuarter": 120.341,
+          "max": 184.911
+        },
+        {
+          "min": 45.1147,
+          "minQuarter": 47.2195,
+          "median": 47.9513,
+          "maxQuarter": 48.5653,
+          "max": 216.741
+        },
+        {
+          "min": 38.1303,
+          "minQuarter": 42.3825,
+          "median": 42.9998,
+          "maxQuarter": 88.361,
+          "max": 209.787
+        },
+        {
+          "min": 5.51252,
+          "minQuarter": 5.97301,
+          "median": 6.03963,
+          "maxQuarter": 48.306,
+          "max": 214.2
+        },
+        {
+          "min": 4.24362,
+          "minQuarter": 4.5889,
+          "median": 4.68418,
+          "maxQuarter": 10.5486,
+          "max": 102.028
+        },
+        {
+          "min": 4.33571,
+          "minQuarter": 4.72955,
+          "median": 4.78673,
+          "maxQuarter": 9.17956,
+          "max": 106.627
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 736: Кредиторская задолженность, расчеты с акционерами (учредителями) по выплате доходов (дивидендов)",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 737: Кредиторская задолженность, расчеты с разными дебиторами и кредиторами",
+      "values": [
+        {
+          "min": 4790,
+          "minQuarter": 5000,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4521.35,
+          "minQuarter": 4790,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4184.31,
+          "minQuarter": 4734.85,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4184.31,
+          "minQuarter": 4734.85,
+          "median": 5000,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4184.31,
+          "minQuarter": 4734.85,
+          "median": 4972.37,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 4005.21,
+          "minQuarter": 4670.33,
+          "median": 4971.57,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3248.93,
+          "minQuarter": 4392.21,
+          "median": 4762.25,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3248.93,
+          "minQuarter": 4341.98,
+          "median": 4707.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4691.61,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4687.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4687.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4687.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        },
+        {
+          "min": 3007.5,
+          "minQuarter": 4341.98,
+          "median": 4687.4,
+          "maxQuarter": 5000,
+          "max": 5000
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 790: ИТОГО Кредиторская задолженность",
+      "values": [
+        {
+          "min": 27589.3,
+          "minQuarter": 27799.3,
+          "median": 27803.4,
+          "maxQuarter": 27816.3,
+          "max": 27824.1
+        },
+        {
+          "min": 17471,
+          "minQuarter": 17793.5,
+          "median": 18001.1,
+          "maxQuarter": 18034,
+          "max": 18064.4
+        },
+        {
+          "min": 16330.9,
+          "minQuarter": 16907.6,
+          "median": 17155.3,
+          "maxQuarter": 17185,
+          "max": 17205.3
+        },
+        {
+          "min": 16741.8,
+          "minQuarter": 17315.4,
+          "median": 17603.8,
+          "maxQuarter": 17639.6,
+          "max": 18398.7
+        },
+        {
+          "min": 16406.1,
+          "minQuarter": 17217.9,
+          "median": 17897.8,
+          "maxQuarter": 18573.9,
+          "max": 19805.8
+        },
+        {
+          "min": 16408.8,
+          "minQuarter": 17264.2,
+          "median": 17553.6,
+          "maxQuarter": 17721,
+          "max": 20301.1
+        },
+        {
+          "min": 16033.6,
+          "minQuarter": 17637.4,
+          "median": 17933.1,
+          "maxQuarter": 18247.7,
+          "max": 20467.1
+        },
+        {
+          "min": 16804.6,
+          "minQuarter": 18210.1,
+          "median": 18712.6,
+          "maxQuarter": 19679,
+          "max": 21554.7
+        },
+        {
+          "min": 16468.4,
+          "minQuarter": 18283.8,
+          "median": 19065.2,
+          "maxQuarter": 20071.1,
+          "max": 22758.5
+        },
+        {
+          "min": 16289.6,
+          "minQuarter": 18750.8,
+          "median": 19563,
+          "maxQuarter": 20841.8,
+          "max": 24475.3
+        },
+        {
+          "min": 16286.8,
+          "minQuarter": 19061.2,
+          "median": 20101.3,
+          "maxQuarter": 21633.7,
+          "max": 26614
+        },
+        {
+          "min": 16378.5,
+          "minQuarter": 19521.8,
+          "median": 20287.1,
+          "maxQuarter": 21985.3,
+          "max": 26867.5
+        },
+        {
+          "min": 17968.9,
+          "minQuarter": 20179.7,
+          "median": 21273.9,
+          "maxQuarter": 22487.6,
+          "max": 29890.3
+        }
+      ]
+    },
+    {
+      "name": "_Баланс 890: Баланс ПАССИВОВ",
+      "values": [
+        {
+          "min": 29714.3,
+          "minQuarter": 29924.3,
+          "median": 29928.3,
+          "maxQuarter": 29941.2,
+          "max": 29949.1
+        },
+        {
+          "min": 32471,
+          "minQuarter": 32793.4,
+          "median": 33001,
+          "maxQuarter": 33033.9,
+          "max": 33064.4
+        },
+        {
+          "min": 33198.2,
+          "minQuarter": 34019.4,
+          "median": 34420.5,
+          "maxQuarter": 34448.8,
+          "max": 34973.1
+        },
+        {
+          "min": 32428.9,
+          "minQuarter": 33470.6,
+          "median": 33920.9,
+          "maxQuarter": 33989.1,
+          "max": 34770.6
+        },
+        {
+          "min": 33222.7,
+          "minQuarter": 34252.1,
+          "median": 34993.7,
+          "maxQuarter": 35700.7,
+          "max": 37079.2
+        },
+        {
+          "min": 32944.2,
+          "minQuarter": 34372.6,
+          "median": 34630.6,
+          "maxQuarter": 35062.1,
+          "max": 36834.3
+        },
+        {
+          "min": 32656.7,
+          "minQuarter": 35203.1,
+          "median": 35745.5,
+          "maxQuarter": 36255.7,
+          "max": 38736.3
+        },
+        {
+          "min": 34137.7,
+          "minQuarter": 36188.7,
+          "median": 36884.1,
+          "maxQuarter": 37950,
+          "max": 40302.5
+        },
+        {
+          "min": 34358.7,
+          "minQuarter": 36685.3,
+          "median": 37697.9,
+          "maxQuarter": 38620.5,
+          "max": 40959.8
+        },
+        {
+          "min": 33956.8,
+          "minQuarter": 37947,
+          "median": 38914.3,
+          "maxQuarter": 40579.4,
+          "max": 44102.2
+        },
+        {
+          "min": 35210.3,
+          "minQuarter": 38986.6,
+          "median": 40292,
+          "maxQuarter": 42159.3,
+          "max": 45992.5
+        },
+        {
+          "min": 40051.3,
+          "minQuarter": 44959.7,
+          "median": 46222.9,
+          "maxQuarter": 47689.6,
+          "max": 52025.5
+        },
+        {
+          "min": 41990.8,
+          "minQuarter": 46809.4,
+          "median": 48199.7,
+          "maxQuarter": 49509.8,
+          "max": 57208
+        }
+      ]
+    },
+    {
+      "name": "_Отчет о прибылях и убытках: Выручка (за минусом налогов)",
+      "values": [
+        {
+          "min": 5471.35,
+          "minQuarter": 5471.35,
+          "median": 5471.35,
+          "maxQuarter": 5471.35,
+          "max": 5471.35
+        },
+        {
+          "min": 17005.8,
+          "minQuarter": 18035.2,
+          "median": 18793.7,
+          "maxQuarter": 18808.2,
+          "max": 21538.9
+        },
+        {
+          "min": 29168.4,
+          "minQuarter": 32811.2,
+          "median": 34483.2,
+          "maxQuarter": 34537.3,
+          "max": 37132.6
+        },
+        {
+          "min": 41535.3,
+          "minQuarter": 48015.5,
+          "median": 50734.4,
+          "maxQuarter": 50859.6,
+          "max": 52664.5
+        },
+        {
+          "min": 56005.9,
+          "minQuarter": 65892.6,
+          "median": 67904.8,
+          "maxQuarter": 69444.7,
+          "max": 70460.8
+        },
+        {
+          "min": 72759.3,
+          "minQuarter": 85523.2,
+          "median": 89146.4,
+          "maxQuarter": 90870.1,
+          "max": 92340
+        },
+        {
+          "min": 91774.8,
+          "minQuarter": 106305,
+          "median": 110761,
+          "maxQuarter": 114537,
+          "max": 116542
+        },
+        {
+          "min": 106170,
+          "minQuarter": 127098,
+          "median": 132721,
+          "maxQuarter": 137842,
+          "max": 140955
+        },
+        {
+          "min": 120241,
+          "minQuarter": 150742,
+          "median": 157741,
+          "maxQuarter": 164337,
+          "max": 168805
+        },
+        {
+          "min": 138585,
+          "minQuarter": 176471,
+          "median": 185618,
+          "maxQuarter": 193783,
+          "max": 200891
+        },
+        {
+          "min": 161308,
+          "minQuarter": 208047,
+          "median": 218495,
+          "maxQuarter": 228288,
+          "max": 239353
+        },
+        {
+          "min": 188790,
+          "minQuarter": 244318,
+          "median": 257295,
+          "maxQuarter": 269153,
+          "max": 284503
+        },
+        {
+          "min": 218249,
+          "minQuarter": 285427,
+          "median": 301054,
+          "maxQuarter": 316943,
+          "max": 334178
+        }
+      ]
+    },
+    {
+      "name": "_Отчет о прибылях и убытках: Себестоимость",
+      "values": [
+        {
+          "min": 525,
+          "minQuarter": 525,
+          "median": 525,
+          "maxQuarter": 525,
+          "max": 525
+        },
+        {
+          "min": 1375.25,
+          "minQuarter": 1385.92,
+          "median": 1394.31,
+          "maxQuarter": 1399.16,
+          "max": 1421.36
+        },
+        {
+          "min": 3258.23,
+          "minQuarter": 3427.8,
+          "median": 3445.43,
+          "maxQuarter": 3456.4,
+          "max": 3481.96
+        },
+        {
+          "min": 3372.16,
+          "minQuarter": 3540.78,
+          "median": 3558.85,
+          "maxQuarter": 3570.49,
+          "max": 3596.08
+        },
+        {
+          "min": 3569.63,
+          "minQuarter": 4597.06,
+          "median": 4622.5,
+          "maxQuarter": 4644.5,
+          "max": 4666.73
+        },
+        {
+          "min": 5789.34,
+          "minQuarter": 6359.13,
+          "median": 6385.29,
+          "maxQuarter": 6406.6,
+          "max": 6452.46
+        },
+        {
+          "min": 8882.72,
+          "minQuarter": 10202.8,
+          "median": 10243.6,
+          "maxQuarter": 10269.6,
+          "max": 10337.6
+        },
+        {
+          "min": 10397.7,
+          "minQuarter": 11693.7,
+          "median": 11737.8,
+          "maxQuarter": 11774.3,
+          "max": 11863.5
+        },
+        {
+          "min": 11830.7,
+          "minQuarter": 13120.7,
+          "median": 13170.1,
+          "maxQuarter": 13203.3,
+          "max": 13290.4
+        },
+        {
+          "min": 11904.9,
+          "minQuarter": 13194,
+          "median": 13245.9,
+          "maxQuarter": 13281.1,
+          "max": 13366.5
+        },
+        {
+          "min": 11904.9,
+          "minQuarter": 13194,
+          "median": 13245.9,
+          "maxQuarter": 13281.1,
+          "max": 13366.5
+        },
+        {
+          "min": 11904.9,
+          "minQuarter": 13194,
+          "median": 13245.9,
+          "maxQuarter": 13281.1,
+          "max": 13366.5
+        },
+        {
+          "min": 11904.9,
+          "minQuarter": 13194,
+          "median": 13245.9,
+          "maxQuarter": 13281.1,
+          "max": 13366.5
+        }
+      ]
+    },
+    {
+      "name": "_Отчет о прибылях и убытках: Прибыль от реализации",
+      "values": [
+        {
+          "min": 4946.35,
+          "minQuarter": 4946.35,
+          "median": 4946.35,
+          "maxQuarter": 4946.35,
+          "max": 4946.35
+        },
+        {
+          "min": 15603.2,
+          "minQuarter": 16639.8,
+          "median": 17402.5,
+          "maxQuarter": 17414.9,
+          "max": 20147.1
+        },
+        {
+          "min": 25715.4,
+          "minQuarter": 29374.9,
+          "median": 31043.8,
+          "maxQuarter": 31094.3,
+          "max": 33673.5
+        },
+        {
+          "min": 37967.5,
+          "minQuarter": 44481.2,
+          "median": 47183.4,
+          "maxQuarter": 47304.2,
+          "max": 49092.5
+        },
+        {
+          "min": 51356.3,
+          "minQuarter": 61468.6,
+          "median": 63287.9,
+          "maxQuarter": 64824,
+          "max": 65810.7
+        },
+        {
+          "min": 66357.5,
+          "minQuarter": 79121.2,
+          "median": 82745.7,
+          "maxQuarter": 84493.3,
+          "max": 85933.7
+        },
+        {
+          "min": 81538.2,
+          "minQuarter": 96035.7,
+          "median": 100497,
+          "maxQuarter": 104305,
+          "max": 106341
+        },
+        {
+          "min": 94487.4,
+          "minQuarter": 115467,
+          "median": 120981,
+          "maxQuarter": 126139,
+          "max": 129145
+        },
+        {
+          "min": 107138,
+          "minQuarter": 137692,
+          "median": 144574,
+          "maxQuarter": 151152,
+          "max": 155627
+        },
+        {
+          "min": 125410,
+          "minQuarter": 163289,
+          "median": 172392,
+          "maxQuarter": 180478,
+          "max": 187718
+        },
+        {
+          "min": 148133,
+          "minQuarter": 194785,
+          "median": 205298,
+          "maxQuarter": 215042,
+          "max": 226059
+        },
+        {
+          "min": 175615,
+          "minQuarter": 231192,
+          "median": 244114,
+          "maxQuarter": 255908,
+          "max": 271209
+        },
+        {
+          "min": 205074,
+          "minQuarter": 272301,
+          "median": 287890,
+          "maxQuarter": 303674,
+          "max": 320885
+        }
+      ]
+    },
+    {
+      "name": "_Отчет о прибылях и убытках: Налог на прибыль и иные обязательные платежи",
+      "values": [
+        {
+          "min": 1437.52,
+          "minQuarter": 1437.52,
+          "median": 1437.52,
+          "maxQuarter": 1437.52,
+          "max": 1437.52
+        },
+        {
+          "min": 0.0347222,
+          "minQuarter": 0.0347222,
+          "median": 0.0347222,
+          "maxQuarter": 0.0347222,
+          "max": 0.0347222
+        },
+        {
+          "min": 0.0338542,
+          "minQuarter": 0.0338542,
+          "median": 0.0338542,
+          "maxQuarter": 0.0338542,
+          "max": 0.0338542
+        },
+        {
+          "min": 266.822,
+          "minQuarter": 290.015,
+          "median": 325.256,
+          "maxQuarter": 325.785,
+          "max": 437.578
+        },
+        {
+          "min": 95.8783,
+          "minQuarter": 158.992,
+          "median": 188.864,
+          "maxQuarter": 195.181,
+          "max": 201.023
+        },
+        {
+          "min": 233.536,
+          "minQuarter": 291.547,
+          "median": 303.324,
+          "maxQuarter": 319.123,
+          "max": 333.047
+        },
+        {
+          "min": 184.861,
+          "minQuarter": 273.112,
+          "median": 306.433,
+          "maxQuarter": 346.616,
+          "max": 424.242
+        },
+        {
+          "min": 233.351,
+          "minQuarter": 359.82,
+          "median": 394.001,
+          "maxQuarter": 442.804,
+          "max": 593.61
+        },
+        {
+          "min": 283.902,
+          "minQuarter": 407.286,
+          "median": 444.156,
+          "maxQuarter": 485.466,
+          "max": 555.666
+        },
+        {
+          "min": 286.124,
+          "minQuarter": 452.286,
+          "median": 494.734,
+          "maxQuarter": 545.118,
+          "max": 671.951
+        },
+        {
+          "min": 344.65,
+          "minQuarter": 574.434,
+          "median": 629.567,
+          "maxQuarter": 698.623,
+          "max": 905.296
+        },
+        {
+          "min": 421.633,
+          "minQuarter": 639.702,
+          "median": 716.504,
+          "maxQuarter": 814.547,
+          "max": 972.215
+        },
+        {
+          "min": 546.051,
+          "minQuarter": 752.882,
+          "median": 856.036,
+          "maxQuarter": 930.388,
+          "max": 1156.05
+        }
+      ]
+    },
+    {
+      "name": "_Отчет о прибылях и убытках: Использовано прибыли",
+      "values": [
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        },
+        {
+          "min": 0,
+          "minQuarter": 0,
+          "median": 0,
+          "maxQuarter": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "name": "_Отчет о прибылях и убытках: Нераспределенная прибыль",
+      "values": [
+        {
+          "min": 3562.48,
+          "minQuarter": 3562.48,
+          "median": 3562.48,
+          "maxQuarter": 3562.48,
+          "max": 3562.48
+        },
+        {
+          "min": -1437.56,
+          "minQuarter": -1437.56,
+          "median": -1437.56,
+          "maxQuarter": -1437.56,
+          "max": -1437.56
+        },
+        {
+          "min": -1437.59,
+          "minQuarter": -1437.59,
+          "median": -1437.59,
+          "maxQuarter": -1437.59,
+          "max": -1437.59
+        },
+        {
+          "min": -776.39,
+          "minQuarter": -718.911,
+          "median": -631.575,
+          "maxQuarter": -630.262,
+          "max": -353.211
+        },
+        {
+          "min": -259.185,
+          "minQuarter": 13.3193,
+          "median": 162.346,
+          "maxQuarter": 178.797,
+          "max": 421.78
+        },
+        {
+          "min": 418.284,
+          "minQuarter": 919.122,
+          "median": 1100.98,
+          "maxQuarter": 1151.72,
+          "max": 1337.76
+        },
+        {
+          "min": 1125.59,
+          "minQuarter": 1962.55,
+          "median": 2128.02,
+          "maxQuarter": 2275.47,
+          "max": 2442.03
+        },
+        {
+          "min": 2292.75,
+          "minQuarter": 3145.77,
+          "median": 3472.88,
+          "maxQuarter": 3636.99,
+          "max": 3908.98
+        },
+        {
+          "min": 3389.71,
+          "minQuarter": 4581.5,
+          "median": 4939.32,
+          "maxQuarter": 5282.48,
+          "max": 5555.5
+        },
+        {
+          "min": 4398.66,
+          "minQuarter": 6188.88,
+          "median": 6644.96,
+          "maxQuarter": 7052.91,
+          "max": 7458.54
+        },
+        {
+          "min": 5634.98,
+          "minQuarter": 8161.04,
+          "median": 8764.38,
+          "maxQuarter": 9270.48,
+          "max": 9772.07
+        },
+        {
+          "min": 7416.17,
+          "minQuarter": 10439.7,
+          "median": 11197.9,
+          "maxQuarter": 11888.9,
+          "max": 12661.2
+        },
+        {
+          "min": 9386.57,
+          "minQuarter": 13244.9,
+          "median": 14203.9,
+          "maxQuarter": 14879.6,
+          "max": 16050.9
+        }
+      ]
+    },
+    {
+      "name": "Финансовое состояние: Коэффициент текущей ликвидности",
+      "values": [
+        {
+          "min": 1.45871,
+          "minQuarter": 1.46794,
+          "median": 1.46817,
+          "maxQuarter": 1.46825,
+          "max": 1.47182
+        },
+        {
+          "min": 1.0652,
+          "minQuarter": 1.23062,
+          "median": 1.23137,
+          "maxQuarter": 1.28157,
+          "max": 1.35098
+        },
+        {
+          "min": 1.14272,
+          "minQuarter": 1.14597,
+          "median": 1.14876,
+          "maxQuarter": 1.21279,
+          "max": 1.37453
+        },
+        {
+          "min": 0.941005,
+          "minQuarter": 0.94473,
+          "median": 0.949262,
+          "maxQuarter": 1.01815,
+          "max": 1.18215
+        },
+        {
+          "min": 0.766571,
+          "minQuarter": 0.831484,
+          "median": 0.858653,
+          "maxQuarter": 0.92887,
+          "max": 1.08764
+        },
+        {
+          "min": 0.625629,
+          "minQuarter": 0.635451,
+          "median": 0.707234,
+          "maxQuarter": 0.738754,
+          "max": 0.934635
+        },
+        {
+          "min": 0.559524,
+          "minQuarter": 0.588323,
+          "median": 0.671535,
+          "maxQuarter": 0.75183,
+          "max": 1.11283
+        },
+        {
+          "min": 0.376169,
+          "minQuarter": 0.475734,
+          "median": 0.526881,
+          "maxQuarter": 0.63561,
+          "max": 1.01836
+        },
+        {
+          "min": 0.127523,
+          "minQuarter": 0.28777,
+          "median": 0.349891,
+          "maxQuarter": 0.475726,
+          "max": 0.986458
+        },
+        {
+          "min": -0.173311,
+          "minQuarter": 0.029779,
+          "median": 0.151678,
+          "maxQuarter": 0.282211,
+          "max": 0.610494
+        },
+        {
+          "min": -0.510014,
+          "minQuarter": -0.235391,
+          "median": -0.103782,
+          "maxQuarter": 0.076797,
+          "max": 0.444234
+        },
+        {
+          "min": -0.84265,
+          "minQuarter": -0.562061,
+          "median": -0.396304,
+          "maxQuarter": -0.235348,
+          "max": 0.257762
+        },
+        {
+          "min": -1.19553,
+          "minQuarter": -0.873172,
+          "median": -0.696202,
+          "maxQuarter": -0.48937,
+          "max": 0.067094
+        }
+      ]
+    },
+    {
+      "name": "Финансовое состояние: Коэффициент обеспеченности собственными средствами",
+      "values": [
+        {
+          "min": -0.940118,
+          "minQuarter": -0.932018,
+          "median": -0.931926,
+          "maxQuarter": -0.931632,
+          "max": -0.931452
+        },
+        {
+          "min": -1.33072,
+          "minQuarter": -1.14319,
+          "median": -1.14148,
+          "maxQuarter": -1.11393,
+          "max": -1.07256
+        },
+        {
+          "min": -1.18469,
+          "minQuarter": -1.18046,
+          "median": -1.17706,
+          "maxQuarter": -1.14315,
+          "max": -1.05281
+        },
+        {
+          "min": -1.46915,
+          "minQuarter": -1.45959,
+          "median": -1.45465,
+          "maxQuarter": -1.38297,
+          "max": -1.26215
+        },
+        {
+          "min": -1.80321,
+          "minQuarter": -1.64518,
+          "median": -1.54649,
+          "maxQuarter": -1.42466,
+          "max": -1.15679
+        },
+        {
+          "min": -2.1891,
+          "minQuarter": -2.10875,
+          "median": -1.93645,
+          "maxQuarter": -1.83845,
+          "max": -1.4301
+        },
+        {
+          "min": -2.25032,
+          "minQuarter": -2.15503,
+          "median": -1.96237,
+          "maxQuarter": -1.76305,
+          "max": -1.37484
+        },
+        {
+          "min": -3.23634,
+          "minQuarter": -2.62721,
+          "median": -2.3263,
+          "maxQuarter": -1.94643,
+          "max": -1.37718
+        },
+        {
+          "min": -10.0395,
+          "minQuarter": -4.20501,
+          "median": -3.46785,
+          "maxQuarter": -2.62398,
+          "max": -1.37125
+        },
+        {
+          "min": -400.235,
+          "minQuarter": -8.18821,
+          "median": -4.87697,
+          "maxQuarter": -2.41329,
+          "max": 833.174
+        },
+        {
+          "min": -117.303,
+          "minQuarter": -5.19037,
+          "median": 3.57011,
+          "maxQuarter": 8.05663,
+          "max": 405.162
+        },
+        {
+          "min": -171.188,
+          "minQuarter": 2.5507,
+          "median": 3.52602,
+          "maxQuarter": 5.54397,
+          "max": 237.551
+        },
+        {
+          "min": -25.8597,
+          "minQuarter": 1.57369,
+          "median": 2.01174,
+          "maxQuarter": 2.73375,
+          "max": 14.4147
+        }
+      ]
+    },
+    {
+      "name": "Финансовое состояние: Коэффициент обеспеченности финансовых обязательств активами",
+      "values": [
+        {
+          "min": 0.341566,
+          "minQuarter": 0.343273,
+          "median": 0.343315,
+          "maxQuarter": 0.343424,
+          "max": 0.344128
+        },
+        {
+          "min": 0.273342,
+          "minQuarter": 0.281859,
+          "median": 0.288124,
+          "maxQuarter": 0.288351,
+          "max": 0.301027
+        },
+        {
+          "min": 0.259438,
+          "minQuarter": 0.277536,
+          "median": 0.285143,
+          "maxQuarter": 0.285409,
+          "max": 0.285743
+        },
+        {
+          "min": 0.276917,
+          "minQuarter": 0.297178,
+          "median": 0.306895,
+          "maxQuarter": 0.307637,
+          "max": 0.312573
+        },
+        {
+          "min": 0.288273,
+          "minQuarter": 0.309343,
+          "median": 0.32022,
+          "maxQuarter": 0.32589,
+          "max": 0.331934
+        },
+        {
+          "min": 0.291745,
+          "minQuarter": 0.322296,
+          "median": 0.335632,
+          "maxQuarter": 0.337784,
+          "max": 0.349366
+        },
+        {
+          "min": 0.271713,
+          "minQuarter": 0.326486,
+          "median": 0.337621,
+          "maxQuarter": 0.350942,
+          "max": 0.366652
+        },
+        {
+          "min": 0.293331,
+          "minQuarter": 0.350371,
+          "median": 0.369371,
+          "maxQuarter": 0.384517,
+          "max": 0.399727
+        },
+        {
+          "min": 0.305174,
+          "minQuarter": 0.374504,
+          "median": 0.397219,
+          "maxQuarter": 0.418516,
+          "max": 0.43484
+        },
+        {
+          "min": 0.31562,
+          "minQuarter": 0.420943,
+          "median": 0.446819,
+          "maxQuarter": 0.47528,
+          "max": 0.489971
+        },
+        {
+          "min": 0.346079,
+          "minQuarter": 0.480792,
+          "median": 0.516151,
+          "maxQuarter": 0.554306,
+          "max": 0.587271
+        },
+        {
+          "min": 0.289573,
+          "minQuarter": 0.402428,
+          "median": 0.432279,
+          "maxQuarter": 0.462145,
+          "max": 0.482702
+        },
+        {
+          "min": 0.339633,
+          "minQuarter": 0.473271,
+          "median": 0.509331,
+          "maxQuarter": 0.559829,
+          "max": 0.596383
+        }
+      ]
+    },
+    {
+      "name": "Финансовая устойчивость: Коэффициент собственности",
+      "values": [
+        {
+          "min": 0.070952,
+          "minQuarter": 0.070971,
+          "median": 0.071,
+          "maxQuarter": 0.071011,
+          "max": 0.071513
+        },
+        {
+          "min": 0.453658,
+          "minQuarter": 0.454158,
+          "median": 0.454473,
+          "maxQuarter": 0.457453,
+          "max": 0.461949
+        },
+        {
+          "min": 0.49874,
+          "minQuarter": 0.501047,
+          "median": 0.501227,
+          "maxQuarter": 0.501803,
+          "max": 0.5177
+        },
+        {
+          "min": 0.470821,
+          "minQuarter": 0.480671,
+          "median": 0.481325,
+          "maxQuarter": 0.482898,
+          "max": 0.487058
+        },
+        {
+          "min": 0.465852,
+          "minQuarter": 0.480328,
+          "median": 0.488757,
+          "maxQuarter": 0.498321,
+          "max": 0.507864
+        },
+        {
+          "min": 0.448855,
+          "minQuarter": 0.490056,
+          "median": 0.49585,
+          "maxQuarter": 0.500636,
+          "max": 0.507493
+        },
+        {
+          "min": 0.471629,
+          "minQuarter": 0.493267,
+          "median": 0.497815,
+          "maxQuarter": 0.502505,
+          "max": 0.514804
+        },
+        {
+          "min": 0.452413,
+          "minQuarter": 0.480437,
+          "median": 0.489103,
+          "maxQuarter": 0.500071,
+          "max": 0.514828
+        },
+        {
+          "min": 0.444372,
+          "minQuarter": 0.478441,
+          "median": 0.49338,
+          "maxQuarter": 0.505273,
+          "max": 0.522491
+        },
+        {
+          "min": 0.438162,
+          "minQuarter": 0.479736,
+          "median": 0.496477,
+          "maxQuarter": 0.510411,
+          "max": 0.530984
+        },
+        {
+          "min": 0.42134,
+          "minQuarter": 0.484803,
+          "median": 0.497731,
+          "maxQuarter": 0.514879,
+          "max": 0.537444
+        },
+        {
+          "min": 0.48357,
+          "minQuarter": 0.538709,
+          "median": 0.557137,
+          "maxQuarter": 0.570685,
+          "max": 0.591061
+        },
+        {
+          "min": 0.477515,
+          "minQuarter": 0.54554,
+          "median": 0.557493,
+          "maxQuarter": 0.572074,
+          "max": 0.609121
+        }
+      ]
+    },
+    {
+      "name": "Финансовая устойчивость: Коэффициент абсолютной ликвидности",
+      "values": [
+        {
+          "min": 0.181802,
+          "minQuarter": 0.181878,
+          "median": 0.18196,
+          "maxQuarter": 0.182022,
+          "max": 0.215182
+        },
+        {
+          "min": -1.03487,
+          "minQuarter": -0.930083,
+          "median": -0.928394,
+          "maxQuarter": -0.848528,
+          "max": -0.736722
+        },
+        {
+          "min": -1.32543,
+          "minQuarter": -1.3212,
+          "median": -1.31572,
+          "maxQuarter": -1.21368,
+          "max": -0.964751
+        },
+        {
+          "min": -1.56709,
+          "minQuarter": -1.55891,
+          "median": -1.55062,
+          "maxQuarter": -1.44215,
+          "max": -1.20761
+        },
+        {
+          "min": -1.92539,
+          "minQuarter": -1.81442,
+          "median": -1.70871,
+          "maxQuarter": -1.58126,
+          "max": -1.18449
+        },
+        {
+          "min": -2.19667,
+          "minQuarter": -2.16825,
+          "median": -2.06846,
+          "maxQuarter": -1.96572,
+          "max": -1.58444
+        },
+        {
+          "min": -2.49911,
+          "minQuarter": -2.39742,
+          "median": -2.29877,
+          "maxQuarter": -2.14935,
+          "max": -1.71702
+        },
+        {
+          "min": -2.78502,
+          "minQuarter": -2.59611,
+          "median": -2.4416,
+          "maxQuarter": -2.24076,
+          "max": -1.79818
+        },
+        {
+          "min": -3.2477,
+          "minQuarter": -2.88731,
+          "median": -2.73592,
+          "maxQuarter": -2.51985,
+          "max": -1.79637
+        },
+        {
+          "min": -3.58246,
+          "minQuarter": -3.17578,
+          "median": -2.91564,
+          "maxQuarter": -2.61481,
+          "max": -1.89556
+        },
+        {
+          "min": -3.95723,
+          "minQuarter": -3.45597,
+          "median": -3.1732,
+          "maxQuarter": -2.85395,
+          "max": -2.05601
+        },
+        {
+          "min": -4.26725,
+          "minQuarter": -3.82756,
+          "median": -3.51592,
+          "maxQuarter": -3.1713,
+          "max": -2.26829
+        },
+        {
+          "min": -4.61097,
+          "minQuarter": -4.10283,
+          "median": -3.79792,
+          "maxQuarter": -3.41075,
+          "max": -2.19323
+        }
+      ]
+    },
+    {
+      "name": "Финансовая устойчивость: Коэффициент критической (быстрой) ликвидности",
+      "values": [
+        {
+          "min": 1.08899,
+          "minQuarter": 1.09909,
+          "median": 1.09961,
+          "maxQuarter": 1.09982,
+          "max": 1.10066
+        },
+        {
+          "min": 0.605517,
+          "minQuarter": 0.773944,
+          "median": 0.775285,
+          "maxQuarter": 0.81825,
+          "max": 0.880298
+        },
+        {
+          "min": 0.716539,
+          "minQuarter": 0.72085,
+          "median": 0.724164,
+          "maxQuarter": 0.782172,
+          "max": 0.927592
+        },
+        {
+          "min": 0.559896,
+          "minQuarter": 0.565052,
+          "median": 0.568836,
+          "maxQuarter": 0.629339,
+          "max": 0.78282
+        },
+        {
+          "min": 0.39252,
+          "minQuarter": 0.463996,
+          "median": 0.489113,
+          "maxQuarter": 0.56962,
+          "max": 0.74873
+        },
+        {
+          "min": 0.275166,
+          "minQuarter": 0.307196,
+          "median": 0.375127,
+          "maxQuarter": 0.413578,
+          "max": 0.58696
+        },
+        {
+          "min": 0.293494,
+          "minQuarter": 0.356006,
+          "median": 0.440599,
+          "maxQuarter": 0.513403,
+          "max": 0.852687
+        },
+        {
+          "min": 0.229242,
+          "minQuarter": 0.327494,
+          "median": 0.391066,
+          "maxQuarter": 0.490236,
+          "max": 0.861873
+        },
+        {
+          "min": -0.003731,
+          "minQuarter": 0.185402,
+          "median": 0.256708,
+          "maxQuarter": 0.377163,
+          "max": 0.88329
+        },
+        {
+          "min": -0.248294,
+          "minQuarter": -0.048181,
+          "median": 0.078402,
+          "maxQuarter": 0.217512,
+          "max": 0.525821
+        },
+        {
+          "min": -0.577167,
+          "minQuarter": -0.304053,
+          "median": -0.158912,
+          "maxQuarter": 0.020997,
+          "max": 0.378196
+        },
+        {
+          "min": -0.975235,
+          "minQuarter": -0.692243,
+          "median": -0.514712,
+          "maxQuarter": -0.357375,
+          "max": 0.142498
+        },
+        {
+          "min": -1.39561,
+          "minQuarter": -1.07112,
+          "median": -0.882981,
+          "maxQuarter": -0.661113,
+          "max": -0.077037
+        }
+      ]
+    },
+    {
+      "name": "Рентабельность: Рентабельность продукции по затратам",
+      "values": [
+        {
+          "min": 9.42163,
+          "minQuarter": 9.42163,
+          "median": 9.42163,
+          "maxQuarter": 9.42163,
+          "max": 9.42163
+        },
+        {
+          "min": 11.1029,
+          "minQuarter": 12.0769,
+          "median": 12.4577,
+          "maxQuarter": 12.555,
+          "max": 14.4753
+        },
+        {
+          "min": 7.44721,
+          "minQuarter": 8.59439,
+          "median": 8.96722,
+          "maxQuarter": 9.0343,
+          "max": 9.73467
+        },
+        {
+          "min": 10.6415,
+          "minQuarter": 12.5,
+          "median": 13.1916,
+          "maxQuarter": 13.3003,
+          "max": 13.7436
+        },
+        {
+          "min": 11.0455,
+          "minQuarter": 13.2596,
+          "median": 13.7575,
+          "maxQuarter": 14.0265,
+          "max": 17.2979
+        },
+        {
+          "min": 10.3655,
+          "minQuarter": 12.3967,
+          "median": 12.9659,
+          "maxQuarter": 13.2305,
+          "max": 13.8869
+        },
+        {
+          "min": 7.96538,
+          "minQuarter": 9.4149,
+          "median": 9.86026,
+          "maxQuarter": 10.2172,
+          "max": 11.2427
+        },
+        {
+          "min": 8.08803,
+          "minQuarter": 9.85757,
+          "median": 10.3378,
+          "maxQuarter": 10.7854,
+          "max": 11.6285
+        },
+        {
+          "min": 8.17689,
+          "minQuarter": 10.4361,
+          "median": 11.0168,
+          "maxQuarter": 11.5029,
+          "max": 12.4028
+        },
+        {
+          "min": 9.51878,
+          "minQuarter": 12.3034,
+          "median": 13.0344,
+          "maxQuarter": 13.7115,
+          "max": 14.868
+        },
+        {
+          "min": 11.2435,
+          "minQuarter": 14.688,
+          "median": 15.5562,
+          "maxQuarter": 16.2507,
+          "max": 17.9013
+        },
+        {
+          "min": 13.3294,
+          "minQuarter": 17.4828,
+          "median": 18.3852,
+          "maxQuarter": 19.3728,
+          "max": 21.2838
+        },
+        {
+          "min": 15.5654,
+          "minQuarter": 20.745,
+          "median": 21.8065,
+          "maxQuarter": 22.995,
+          "max": 25.3581
+        }
+      ]
+    },
+    {
+      "name": "Рентабельность: Рентабельность активов предприятия",
+      "values": [
+        {
+          "min": 0.061722,
+          "minQuarter": 0.061728,
+          "median": 0.061738,
+          "maxQuarter": 0.061741,
+          "max": 0.062011
+        },
+        {
+          "min": -0.024213,
+          "minQuarter": -0.023003,
+          "median": -0.022991,
+          "maxQuarter": -0.02279,
+          "max": -0.022478
+        },
+        {
+          "min": -0.023915,
+          "minQuarter": -0.023885,
+          "median": -0.023864,
+          "maxQuarter": -0.023558,
+          "max": -0.022837
+        },
+        {
+          "min": -0.008587,
+          "minQuarter": -0.007286,
+          "median": -0.005339,
+          "maxQuarter": -0.005278,
+          "max": 0.001456
+        },
+        {
+          "min": -0.002711,
+          "minQuarter": 0.003198,
+          "median": 0.006138,
+          "maxQuarter": 0.006662,
+          "max": 0.009529
+        },
+        {
+          "min": 0.011581,
+          "minQuarter": 0.022471,
+          "median": 0.026461,
+          "maxQuarter": 0.02791,
+          "max": 0.03026
+        },
+        {
+          "min": 0.023317,
+          "minQuarter": 0.041662,
+          "median": 0.045427,
+          "maxQuarter": 0.050108,
+          "max": 0.055313
+        },
+        {
+          "min": 0.044901,
+          "minQuarter": 0.067172,
+          "median": 0.075402,
+          "maxQuarter": 0.080648,
+          "max": 0.09066
+        },
+        {
+          "min": 0.062142,
+          "minQuarter": 0.100556,
+          "median": 0.111876,
+          "maxQuarter": 0.120387,
+          "max": 0.135068
+        },
+        {
+          "min": 0.09077,
+          "minQuarter": 0.142942,
+          "median": 0.157442,
+          "maxQuarter": 0.178025,
+          "max": 0.204242
+        },
+        {
+          "min": 0.127886,
+          "minQuarter": 0.209473,
+          "median": 0.234826,
+          "maxQuarter": 0.260868,
+          "max": 0.322943
+        },
+        {
+          "min": 0.14109,
+          "minQuarter": 0.216073,
+          "median": 0.244016,
+          "maxQuarter": 0.277476,
+          "max": 0.336808
+        },
+        {
+          "min": 0.171201,
+          "minQuarter": 0.299564,
+          "median": 0.352563,
+          "maxQuarter": 0.403912,
+          "max": 0.500152
+        }
+      ]
+    },
+    {
+      "name": "Рентабельность: Рентабельность основного капитала",
+      "values": [
+        {
+          "min": 0.166205,
+          "minQuarter": 0.166205,
+          "median": 0.166205,
+          "maxQuarter": 0.166205,
+          "max": 0.166205
+        },
+        {
+          "min": -0.047653,
+          "minQuarter": -0.047653,
+          "median": -0.047653,
+          "maxQuarter": -0.047653,
+          "max": -0.047653
+        },
+        {
+          "min": -0.047523,
+          "minQuarter": -0.047523,
+          "median": -0.047523,
+          "maxQuarter": -0.047523,
+          "max": -0.047523
+        },
+        {
+          "min": -0.016799,
+          "minQuarter": -0.014139,
+          "median": -0.010098,
+          "maxQuarter": -0.010038,
+          "max": 0.002781
+        },
+        {
+          "min": -0.005273,
+          "minQuarter": 0.006142,
+          "median": 0.011565,
+          "maxQuarter": 0.012274,
+          "max": 0.018344
+        },
+        {
+          "min": 0.021371,
+          "minQuarter": 0.039924,
+          "median": 0.045859,
+          "maxQuarter": 0.048171,
+          "max": 0.054178
+        },
+        {
+          "min": 0.043056,
+          "minQuarter": 0.073928,
+          "median": 0.079062,
+          "maxQuarter": 0.085569,
+          "max": 0.093472
+        },
+        {
+          "min": 0.086298,
+          "minQuarter": 0.115097,
+          "median": 0.126225,
+          "maxQuarter": 0.133429,
+          "max": 0.143776
+        },
+        {
+          "min": 0.119988,
+          "minQuarter": 0.162557,
+          "median": 0.174768,
+          "maxQuarter": 0.187093,
+          "max": 0.198098
+        },
+        {
+          "min": 0.151939,
+          "minQuarter": 0.215227,
+          "median": 0.232929,
+          "maxQuarter": 0.245733,
+          "max": 0.259789
+        },
+        {
+          "min": 0.194666,
+          "minQuarter": 0.28192,
+          "median": 0.303655,
+          "maxQuarter": 0.321599,
+          "max": 0.344373
+        },
+        {
+          "min": 0.190686,
+          "minQuarter": 0.265871,
+          "median": 0.286195,
+          "maxQuarter": 0.303359,
+          "max": 0.32438
+        },
+        {
+          "min": 0.237214,
+          "minQuarter": 0.337069,
+          "median": 0.359484,
+          "maxQuarter": 0.376164,
+          "max": 0.40631
+        }
+      ]
+    },
+    {
+      "name": "Рентабельность: Рентабельность собственного капитала",
+      "values": [
+        {
+          "min": 0.127802,
+          "minQuarter": 0.127802,
+          "median": 0.127802,
+          "maxQuarter": 0.127802,
+          "max": 0.127802
+        },
+        {
+          "min": -0.095837,
+          "minQuarter": -0.095837,
+          "median": -0.095837,
+          "maxQuarter": -0.095837,
+          "max": -0.095837
+        },
+        {
+          "min": -0.120239,
+          "minQuarter": -0.112895,
+          "median": -0.112863,
+          "maxQuarter": -0.110722,
+          "max": -0.109372
+        },
+        {
+          "min": -0.055754,
+          "minQuarter": -0.050855,
+          "median": -0.046262,
+          "maxQuarter": -0.046083,
+          "max": -0.025135
+        },
+        {
+          "min": -0.019377,
+          "minQuarter": 0.001032,
+          "median": 0.012565,
+          "maxQuarter": 0.013879,
+          "max": 0.032923
+        },
+        {
+          "min": 0.030599,
+          "minQuarter": 0.070221,
+          "median": 0.086049,
+          "maxQuarter": 0.089714,
+          "max": 0.103708
+        },
+        {
+          "min": 0.091807,
+          "minQuarter": 0.155854,
+          "median": 0.178331,
+          "maxQuarter": 0.186881,
+          "max": 0.20215
+        },
+        {
+          "min": 0.183266,
+          "minQuarter": 0.261959,
+          "median": 0.291246,
+          "maxQuarter": 0.311611,
+          "max": 0.336695
+        },
+        {
+          "min": 0.260552,
+          "minQuarter": 0.392845,
+          "median": 0.432634,
+          "maxQuarter": 0.463223,
+          "max": 0.497684
+        },
+        {
+          "min": 0.356666,
+          "minQuarter": 0.567238,
+          "median": 0.632165,
+          "maxQuarter": 0.685594,
+          "max": 0.806659
+        },
+        {
+          "min": 0.508735,
+          "minQuarter": 0.798266,
+          "median": 0.879222,
+          "maxQuarter": 0.986076,
+          "max": 1.1192
+        },
+        {
+          "min": 0.470055,
+          "minQuarter": 0.74844,
+          "median": 0.82598,
+          "maxQuarter": 0.880833,
+          "max": 1.03363
+        },
+        {
+          "min": 0.669624,
+          "minQuarter": 1.00934,
+          "median": 1.1139,
+          "maxQuarter": 1.24307,
+          "max": 1.56858
+        }
+      ]
+    },
+    {
+      "name": "Эффективность фондов: Период окупаемости собственного капитала",
+      "values": [
+        {
+          "min": 0.596481,
+          "minQuarter": 0.596481,
+          "median": 0.596481,
+          "maxQuarter": 0.596481,
+          "max": 0.596481
+        },
+        {
+          "min": -10.4343,
+          "minQuarter": -10.4343,
+          "median": -10.4343,
+          "maxQuarter": -10.4343,
+          "max": -10.4343
+        },
+        {
+          "min": -12.5514,
+          "minQuarter": -12.0104,
+          "median": -12.0079,
+          "maxQuarter": -11.8366,
+          "max": -11.7251
+        },
+        {
+          "min": -45.1491,
+          "minQuarter": -25.9219,
+          "median": -25.8279,
+          "maxQuarter": -22.5294,
+          "max": -20.3104
+        },
+        {
+          "min": -20114.7,
+          "minQuarter": 91.4712,
+          "median": 97.2592,
+          "maxQuarter": 115.241,
+          "max": 21138.4
+        },
+        {
+          "min": 12.7831,
+          "minQuarter": 14.9352,
+          "median": 15.8654,
+          "maxQuarter": 18.5035,
+          "max": 39.0404
+        },
+        {
+          "min": 7.16737,
+          "minQuarter": 7.86634,
+          "median": 8.49107,
+          "maxQuarter": 8.90962,
+          "max": 15.7603
+        },
+        {
+          "min": 4.52968,
+          "minQuarter": 5.01321,
+          "median": 5.25775,
+          "maxQuarter": 5.65818,
+          "max": 7.62819
+        },
+        {
+          "min": 3.26014,
+          "minQuarter": 3.5511,
+          "median": 3.74395,
+          "maxQuarter": 3.99084,
+          "max": 5.01231
+        },
+        {
+          "min": 2.5972,
+          "minQuarter": 2.80539,
+          "median": 2.91628,
+          "maxQuarter": 3.13283,
+          "max": 4.07347
+        },
+        {
+          "min": 1.96437,
+          "minQuarter": 2.21424,
+          "median": 2.30456,
+          "maxQuarter": 2.44254,
+          "max": 3.35823
+        },
+        {
+          "min": 1.95664,
+          "minQuarter": 2.18012,
+          "median": 2.30395,
+          "maxQuarter": 2.47282,
+          "max": 3.19205
+        },
+        {
+          "min": 1.66666,
+          "minQuarter": 1.82287,
+          "median": 1.9101,
+          "maxQuarter": 2.0328,
+          "max": 2.70944
+        }
+      ]
+    }
+  ]
+}

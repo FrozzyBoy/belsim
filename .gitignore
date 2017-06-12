@@ -31,3 +31,12 @@ node_modules
 public/build
 frontend/build
 .vscode
+public/app.js
+public/app.js.map
+public/index.html
+public/localization/en.json
+public/localization/ru.json
+public/polyfills.js
+public/polyfills.js.map
+public/vendor.js
+public/vendor.js.map

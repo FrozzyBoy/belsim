@@ -19,7 +19,7 @@ module.exports = {
 	devtool: 'source-map',
 
 	output: {
-		path: `${__dirname}/../public/build`,
+		path: `${__dirname}/../public`,
 		publicPath: 'http://localhost:8888/',
 		filename: '[name].js',
 		chunkFilename: '[id].chunk.js'
