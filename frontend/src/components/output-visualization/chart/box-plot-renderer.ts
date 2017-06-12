@@ -5,10 +5,11 @@ export class BoxPlotRenderer {
   public render(
     bar: d3.Selection<any, {}, null, undefined>,
     d: { min: number, max: number, median: number, height: number, width: number, minQuarter: number, maxQuarter: number },
-    yScale: d3.ScaleLinear<number, number>
+    yScale: d3.ScaleLinear<number, number>,
+    barWidth: number
   ): void {
     let correctionElementWidth = 10;
-    let xCenter = d.width / 2;
+    let xCenter = barWidth / 2;
     let xStart = xCenter / 2;
     let xEnd = xCenter + xStart;
 
@@ -36,15 +37,6 @@ export class BoxPlotRenderer {
       .attr('y', yScale(d.maxQuarter))
       .attr('width', xEnd - xStart)
       .attr('height', rectHeight);
-
-    bar.selectAll('g.text-values')
-    // .append('text')
-    // .attr('transform', y => `translate(${xEnd}, ${yScale(y)})`)
-    // .classed('median-text', true)
-    // .text(x => x)
-    // .attr("font-family", "sans-serif")
-    // .attr("font-size", "8px");
-
   }
 
   private addQuarter(
@@ -101,7 +93,7 @@ export class BoxPlotRenderer {
       .attr('x2', xEnd);
     extremumGroup.append('text')
       .classed('median-text', true)
-      .attr('transform', y => `translate(${xEnd}, 0)`)
+      .attr('transform', y => `translate(${xEnd + 3}, 0)`)
       .text(x => x)
       .attr("font-family", "sans-serif")
       .attr("font-size", "8px");

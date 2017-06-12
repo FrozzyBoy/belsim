@@ -41,10 +41,10 @@ export class ChartRenderer {
 
     let that = this;
     bar.each(function (d: any) {
-      d.height = barHeight;
-      d.width = barWidth;
+      let value: any = {};
+      _.assign(value, d);
 
-      that.boxPlotRenderer.render(d3.select(this), d, y);
+      that.boxPlotRenderer.render(d3.select(this), value, y, barWidth);
     });
 
     let xAxis = d3.axisBottom(x);
