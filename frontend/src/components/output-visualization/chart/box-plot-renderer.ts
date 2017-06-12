@@ -28,15 +28,18 @@ export class BoxPlotRenderer {
       yScale
     );
 
-    let median = bar.append('g')
+    let median = bar.selectAll('g.median-value')
+      .data([d])
+      .enter()
+      .append('g')
+      .classed('median-value', true)
       .classed('output-data__chart-median', true);
 
-    let rectHeight = yScale(d.minQuarter) - yScale(d.maxQuarter);
     median.append('rect')
       .attr('x', xStart)
-      .attr('y', yScale(d.maxQuarter))
+      .attr('y', d => yScale(d.maxQuarter))
       .attr('width', xEnd - xStart)
-      .attr('height', rectHeight);
+      .attr('height', d => yScale(d.minQuarter) - yScale(d.maxQuarter));
   }
 
   private addQuarter(
