@@ -1,5 +1,5 @@
 <div>
-  <md-select style="width:500px;"
+  <md-select class="output-data__choose-parameter"
              [(ngModel)]="selectedModel.id"
              (change)="modelChange($event.value, selectedModel)"
              placeholder="Имя параметра"
@@ -12,4 +12,4 @@
     </md-option>
   </md-select>
 </div>
-<svg #chart></svg>
+<svg class="output-data__chart" #chart></svg>

@@ -6,18 +6,18 @@
       "name": "_Баланс 110: Основные средства",
       "values": [
         {
-          "min": 30083.3,
-          "minQuarter": 30083.3,
-          "median": 30083.3,
-          "maxQuarter": 30083.3,
+          "min": 20083.3,
+          "minQuarter": 21083.3,
+          "median": 25083.3,
+          "maxQuarter": 28083.3,
           "max": 30083.3
         },
         {
-          "min": 30166.7,
-          "minQuarter": 30166.7,
-          "median": 30166.7,
-          "maxQuarter": 30166.7,
-          "max": 30166.7
+          "min": 22166.7,
+          "minQuarter": 23166.7,
+          "median": 27166.7,
+          "maxQuarter": 29166.7,
+          "max": 31166.7
         },
         {
           "min": 30250,
@@ -83,10 +83,10 @@
           "max": 30916.7
         },
         {
-          "min": 41850,
-          "minQuarter": 41850,
-          "median": 41850,
-          "maxQuarter": 41850,
+          "min": 30850,
+          "minQuarter": 34850,
+          "median": 36050,
+          "maxQuarter": 38850,
           "max": 41850
         },
         {

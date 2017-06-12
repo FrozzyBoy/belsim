@@ -1,4 +1,4 @@
-.box {
+/*.box {
   font: 10px sans-serif;
 }
 
@@ -17,4 +17,27 @@
 .box .outlier {
   fill: none;
   stroke: #ccc;
+}*/
+
+.output-data__chart {
+  padding-top: 25px;
+}
+
+.output-data__choose-parameter {
+  padding: 25px;
+  width: 500px;
+}
+
+.output-data__chart-line {
+  stroke: black;
+}
+
+.output-data__chart-line-dotted {
+  stroke-dasharray: 3,3;
+}
+
+.output-data__chart-median > rect {
+  stroke-width: 0.5;
+  stroke: black;
+  fill: none;
 }
