@@ -49,10 +49,6 @@ export class OutputVisualizationComponent implements OnInit {
       name: this.data[selectedIndex].name,
       values: this.data[selectedIndex].values
     };
-    this.drawAll();
-  }
-
-  private drawAll(): void {
-    // drawAll(this.chart.nativeElement, this.selectedModel);
+    this.chartRenderer.reRender(this.chart.nativeElement, this.selectedModel);
   }
 }

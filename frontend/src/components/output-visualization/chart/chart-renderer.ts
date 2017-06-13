@@ -11,22 +11,27 @@ export class ChartRenderer {
     this.boxPlotRenderer = new BoxPlotRenderer();
   }
 
-  public render(element: any, data: { name: string, values: [{ min: number, max: number, median: number }] }): void {
+  public render(
+    element: any,
+    data: { name: string, values: [{ min: number, max: number, median: number }] },
+    higherBorderValue: number = undefined,
+    lowerBorderValue: number = undefined
+  ): void {
     let margin = { top: 30, right: 20, bottom: 70, left: 100 };
-    let max = _.chain(data.values).max(x => x.max).value().max;
-    let min = _.chain(data.values).min(x => x.min).value().min;
+    higherBorderValue = higherBorderValue ? higherBorderValue : _.chain(data.values).max(x => x.max).value().max;
+    lowerBorderValue = lowerBorderValue ? lowerBorderValue : _.chain(data.values).min(x => x.min).value().min;
     let height = 600 - margin.top - margin.bottom;
     let barHeight = height;
-    let width = 1200 - margin.left - margin.right;
-    let deltaCorrection = (Math.abs(max - min) / 2) * 0.1;
+    let chartWidth = Math.max(element.parentElement.offsetWidth, 1000);
+    let width = chartWidth - margin.left - margin.right;
+    let deltaCorrection = (Math.abs(higherBorderValue - lowerBorderValue) / 2) * 0.1;
 
-    let y = d3.scaleLinear()
-      .domain([max + deltaCorrection, min - deltaCorrection])
+    let yScale = d3.scaleLinear()
+      .domain([higherBorderValue + deltaCorrection, lowerBorderValue - deltaCorrection])
       .range([0, height]);
-    let x = d3.scaleLinear()
+    let xScale = d3.scaleLinear()
       .domain([0, data.values.length])
       .range([0, width]);
-    let barWidth = x(1) - x(0);
     let chart = d3.select(element)
       .attr('height', height + margin.top + margin.bottom)
       .attr('width', width + margin.left + margin.right)
@@ -37,25 +42,30 @@ export class ChartRenderer {
       .data(data.values)
       .enter()
       .append('g')
-      .attr('transform', (d, i) => `translate(${x(i)}, 0)`);
+      .attr('transform', (d, i) => `translate(${xScale(i)}, 0)`);
 
+    let barWidth = xScale(1) - xScale(0);
     let that = this;
     bar.each(function (d: any) {
       let value: any = {};
       _.assign(value, d);
 
-      that.boxPlotRenderer.render(d3.select(this), value, y, barWidth);
+      that.boxPlotRenderer.render(d3.select(this), value, yScale, barWidth);
     });
 
-    let xAxis = d3.axisBottom(x)
+    let xAxis = d3.axisBottom(xScale)
       .tickSizeInner(-height);
     chart.append('g')
       .attr('class', 'x axis')
       .attr('transform', `translate(0, ${height})`)
       .call(xAxis);
 
-    let ticks = (max - min) / 1000;
-    let yAxis = d3.axisLeft(y)
+    let ticks = higherBorderValue - lowerBorderValue;
+    if (ticks < 100) {
+      ticks *= 1000000;
+    }
+    ticks = +String(ticks).substring(0, 2);
+    let yAxis = d3.axisLeft(yScale)
       .tickPadding(10)
       .tickSizeInner(-width)
       .ticks(ticks);
@@ -65,8 +75,13 @@ export class ChartRenderer {
 
   }
 
-  public reRender(): void {
+  private renderChart(): void {
 
+  }
+
+  public reRender(element: any, data: { name: string, values: [{ min: number, max: number, median: number }] }): void {
+    d3.select(element).selectAll('*').remove();
+    this.render(element, data);
   }
 
 }
