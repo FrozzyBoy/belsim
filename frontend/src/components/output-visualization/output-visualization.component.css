@@ -41,3 +41,8 @@
   stroke: black;
   fill: none;
 }
+
+.axis .tick {
+  stroke-opacity: 0.2;
+  shape-rendering: crispEdges;
+}

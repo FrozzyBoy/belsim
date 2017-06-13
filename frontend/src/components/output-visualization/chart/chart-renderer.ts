@@ -15,7 +15,7 @@ export class ChartRenderer {
     let margin = { top: 30, right: 20, bottom: 70, left: 100 };
     let max = _.chain(data.values).max(x => x.max).value().max;
     let min = _.chain(data.values).min(x => x.min).value().min;
-    let height = 480 - margin.top - margin.bottom;
+    let height = 600 - margin.top - margin.bottom;
     let barHeight = height;
     let width = 1200 - margin.left - margin.right;
     let deltaCorrection = (Math.abs(max - min) / 2) * 0.1;
@@ -47,13 +47,18 @@ export class ChartRenderer {
       that.boxPlotRenderer.render(d3.select(this), value, y, barWidth);
     });
 
-    let xAxis = d3.axisBottom(x);
+    let xAxis = d3.axisBottom(x)
+      .tickSizeInner(-height);
     chart.append('g')
       .attr('class', 'x axis')
       .attr('transform', `translate(0, ${height})`)
       .call(xAxis);
 
-    let yAxis = d3.axisLeft(y);
+    let ticks = (max - min) / 1000;
+    let yAxis = d3.axisLeft(y)
+      .tickPadding(10)
+      .tickSizeInner(-width)
+      .ticks(ticks);
     chart.append('g')
       .attr('class', 'y axis')
       .call(yAxis);
