@@ -1,5 +1,8 @@
 const tabs = element.all(by.css('.mat-tab-labels .mat-tab-label'));
 const tabsContent = element.all(by.css('.mat-tab-body-wrapper .belsim-simulation__tab-content'));
+const languageDD = element(by.css('.belsim-simulation__toolbar-language'));
+const languageList = element.all(by.css('.cdk-overlay-container md-option'));
+const inputList = element.all(by.css('.production md-input-container input'));
 
 module.exports = {
     getTabsCount: () => {
@@ -13,6 +16,18 @@ module.exports = {
             tab.click();
             browser.sleep(500);
         });
+    },
+    getInputsNames: () =>{
+        let inputsNames = [];
+
+        return inputList.each(input =>
+        {
+            input.getAttribute('placeholder').then(text => {
+                        inputsNames.push(text);
+                    });
+        }).then(()=>{
+            return inputsNames;
+        })
     },
     getTabsNames: () => {
         let tabsNames = [];
@@ -28,7 +43,19 @@ module.exports = {
         }).then(() => {
             return tabsNames;
         });
+    },
+    changeLanguage: () => {
+        return languageDD.click().then(() => {
+            return languageList.get(0).click();
+        })
+    },
+    chooseValue: () =>{
+        return inputList.get(0).getAttribute('value');
+    },
+    clickValue: ()=>{
+        return inputList.get(0);
     }
+    
 }
 
 function waitForElementAppearance(element) {

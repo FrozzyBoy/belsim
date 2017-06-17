@@ -19,7 +19,7 @@ export class SimulationComponent {
     { key: 'ru', value: 'Русский' }
   ];
 
-  public selectedLanguage: string = 'en';
+  public selectedLanguage: string = 'ru';
 
   public constructor(private translateService: TranslateService) {
 

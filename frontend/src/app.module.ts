@@ -80,7 +80,7 @@ const appRoutes: Routes = [
 })
 export class AppModule {
     public constructor( @Inject(TranslateService) translate: TranslateService) {
-        const defaultLang = 'en';
+        const defaultLang = 'ru';
 
         translate.setDefaultLang(defaultLang);
         translate.use(defaultLang);
