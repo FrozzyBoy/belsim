@@ -14,20 +14,22 @@ export class DataModelComponent implements OnInit, AfterViewInit {
     @ViewChild('sidenav2') private extendedSidenav: any;
 
     public tabs: belsim.simulation.ITab[] = [
-        { id: 'production', title: 'Belsim.Tabs.Stock' },
-        { id: 'production', title: 'Belsim.Tabs.Realization' },
-        { id: 'production', title: 'Belsim.Tabs.Supply' },
-        { id: 'production', title: 'Belsim.Tabs.Finance' },
-        { id: 'production', title: 'Belsim.Tabs.Loans' },
-        { id: 'production', title: 'Belsim.Tabs.Expenses' },
-        { id: 'production', title: 'Belsim.Tabs.PrincipalСash' },
-        { id: 'production', title: 'Belsim.Tabs.Taxes' },
-        { id: 'production', title: 'Belsim.Tabs.Accounts' }
+        // { id: 'production', title: 'Belsim.Tabs.Stock' },
+        // { id: 'production', title: 'Belsim.Tabs.Realization' },
+        // { id: 'production', title: 'Belsim.Tabs.Supply' },
+        // { id: 'production', title: 'Belsim.Tabs.Finance' },
+        // { id: 'production', title: 'Belsim.Tabs.Loans' },
+        // { id: 'production', title: 'Belsim.Tabs.Expenses' },
+        // { id: 'production', title: 'Belsim.Tabs.PrincipalСash' },
+        // { id: 'production', title: 'Belsim.Tabs.Taxes' },
+        // { id: 'production', title: 'Belsim.Tabs.Accounts' }
     ];
 
     public dataModel: belsim.api.IDataModel;
     public products: belsim.api.IProduct[];
     public resources: belsim.api.IProductionResource[];
+    public graphicTypes: belsim.api.IGraphicTypes;
+    public accounts: belsim.api.IAccount[];
 
     public isExtendedSidenavOpened: boolean;
 
@@ -43,6 +45,8 @@ export class DataModelComponent implements OnInit, AfterViewInit {
     public ngOnInit(): void {
         this.dataModel = this.dataModelService.getModel();
         this.products = this.dataModelService.getProducts();
+        this.graphicTypes = this.dataModelService.getGraphicTypes();
+        this.accounts = this.dataModelService.getAccounts();
     }
 
     public openExtendedSidenav(productionCycle: belsim.api.IProductionCycle) {

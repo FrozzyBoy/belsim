@@ -1,0 +1,52 @@
+<table class="stock__finished" cellspacing="0">
+  <tr>
+    <td>
+      <div class="supply__title">{{'Belsim.Tabs.Supply.Maturity' | translate}}</div>
+      <md-input-container class="production__input">
+        <input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Supply.AverageDays' | translate}}" value="0">
+      </md-input-container>
+      <md-input-container class="production__input">
+        <input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Supply.AverageDeviationDays'| translate}}" value="0">
+      </md-input-container>
+
+      <md-select class="production__input" placeholder="{{'Belsim.Tabs.Supply.FunctionType'| translate}}" Type>
+        <md-option *ngFor="let graphicType of graphicTypes">
+          {{ graphicType }}
+        </md-option>
+      </md-select>
+    </td>
+    <td>
+      <div class="supply__title">{{'Belsim.Tabs.Supply.CoefChangingPrice'| translate}}</div>
+      <md-input-container class="production__input">
+        <input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Supply.AverageUnitsMonth'| translate}}" value="0">
+      </md-input-container>
+      <md-input-container class="production__input">
+        <input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Supply.AverageDeviationUnits' | translate}}" value="0">
+      </md-input-container>
+      <md-select class="production__input" placeholder="{{'Belsim.Tabs.Supply.FunctionType'| translate}}">
+        <md-option *ngFor="let graphicType of graphicTypes">
+          {{ graphicType }}
+        </md-option>
+      </md-select>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="supply__title">{{'Belsim.Tabs.Supply.IntervalBetweenPriceChanges'| translate}}</div>
+      <md-input-container class="production__input">
+        <input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Supply.AverageDays'| translate}}" value="0">
+      </md-input-container>
+      <md-input-container class="production__input">
+        <input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Supply.AverageDeviationDays'| translate}}" value="0">
+      </md-input-container>
+      <md-select class="production__input" placeholder="{{'Belsim.Tabs.Supply.FunctionType'| translate}}">
+        <md-option *ngFor="let graphicType of graphicTypes">
+          {{ graphicType }}
+        </md-option>
+      </md-select>
+    </td>
+  </tr>
+</table>
+<div class="supply__title">TODO:InfoTable</div>
+<!--TODO:InfoTable-->

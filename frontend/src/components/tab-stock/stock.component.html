@@ -1,0 +1,71 @@
+<table class="stock__finished" cellspacing="0">
+	<div class="stock__title">{{'Belsim.Tabs.Stock.FinishedProduction' | translate}}</div>
+
+	<tr *ngFor="let productionCycle of production.cycle;let key = index">
+		<td>
+			<md-select class="production__input" [(ngModel)]="productionCycle.product.id" placeholder="{{'Belsim.Tabs.Production.ProductName' | translate}}"
+			 name="md-select-production-{{key}}">
+				<md-option *ngFor="let product of products" [value]="product.id">
+					{{ product.name }}
+				</md-option>
+			</md-select>
+		</td>
+		<td>
+			<md-input-container class="production__input">
+				<input mdInput type="number" step="any" min="0" max="360" placeholder="{{'Belsim.Tabs.Stock.FinishedProductionUnits' | translate}}"
+				 value="0">
+			</md-input-container>
+		</td>
+	</tr>
+</table>
+
+<div class="stock__title">{{'Belsim.Tabs.Stock.PrimeCostOfFinishedGoods' | translate}}</div>
+
+<table class="production__primecost" cellspacing="0">
+	<tr *ngFor="let productionCycle of production.cycle;let key = index">
+		<td>
+			<md-select class="production__input" [(ngModel)]="productionCycle.product.id" placeholder="{{'Belsim.Tabs.Production.ProductName' | translate}}"
+			 name="md-select-production-{{key}}">
+				<md-option *ngFor="let product of products" [value]="product.id">
+					{{ product.name }}
+				</md-option>
+			</md-select>
+		</td>
+		<td>
+			<md-input-container class="production__input">
+				<input mdInput type="number" step="any" min="0" max="360" placeholder="{{'Belsim.Tabs.Stock.PrimeCostProduction' | translate}}"
+				 value="0">
+			</md-input-container>
+		</td>
+	</tr>
+</table>
+
+<div class="stock__title">{{'Belsim.Tabs.Stock.MaterialResourses'| translate}}</div>
+<div class="stock__title">TODO: info table</div>
+<!--TODO: info table-->
+<!--<table class="production__primecost" cellspacing="0">
+	<div class="belsim-data-model__content belsim-data-model__extended-sidenav-content">
+		<div class="belsim-data-model__resources-consumption">
+			<div>{{'Belsim.Tabs.Production.ResourceConsumption' | translate}}</div>
+			<div class="belsim-data-model__resources-consumption-unit">{{'Belsim.Tabs.Production.ResourceConsumption.Unit' | translate}}</div>
+		</div>
+		<md-input-container *ngFor="let resource of resources" class="belsim-data-model__resource-input">
+			<input mdInput type="number" step="any" placeholder="{{resource.name}}" value="{{resource.consumption}}">
+		</md-input-container>
+	</div>
+	<tr *ngFor="let materialResouse of materialResouse.cycle;let key = index">
+		<td>
+			<md-select class="production__input" [(ngModel)]="productionCycle.product.id" (change)="productChanged($event.value, productionCycle)"
+			 placeholder="{{'Belsim.Tabs.Production.ProductName' | translate}}" name="md-select-production-{{key}}">
+				<md-option *ngFor="let product of products" [value]="product.id">
+					{{ product.name }}
+				</md-option>
+			</md-select>
+		</td>
+		<td>
+			<md-input-container class="production__input">
+				<input mdInput type="number" step="any" min="0" max="360" placeholder="primecost production (RUB/units)" value="0">
+			</md-input-container>
+		</td>
+	</tr>
+</table>-->

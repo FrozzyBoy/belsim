@@ -8,8 +8,21 @@ import { RouterModule, Routes, RouteReuseStrategy } from '@angular/router';
 import { TranslateModule, TranslateLoader, TranslateStaticLoader, TranslateService } from 'ng2-translate';
 
 import { SimulationComponent, DataModelComponent, SimulationResultsComponent, MockComponent } from './containers';
-import { OutputVisualizationComponent } from './components';
-import { ProductionComponent } from './components';
+import {
+    OutputVisualizationComponent
+} from './components';
+import {
+    ProductionComponent,
+    FinanceComponent,
+    StockComponent,
+    AccountsComponent,
+    ExpensesComponent,
+    LoansComponent,
+    PrincipalCashComponent,
+    RealizationComponent,
+    SupplyComponent,
+    TaxesComponent
+} from './components';
 import { DataModelService } from './services';
 
 import { CustomReuseStrategy } from './router-reuse';
@@ -50,7 +63,16 @@ const appRoutes: Routes = [
         SimulationResultsComponent,
         OutputVisualizationComponent,
         MockComponent,
-        ProductionComponent
+        ProductionComponent,
+        FinanceComponent,
+        StockComponent,
+        AccountsComponent,
+        ExpensesComponent,
+        LoansComponent,
+        PrincipalCashComponent,
+        RealizationComponent,
+        SupplyComponent,
+        TaxesComponent
     ],
     providers: [DataModelService, { provide: RouteReuseStrategy, useClass: CustomReuseStrategy }],
     bootstrap: [SimulationComponent],

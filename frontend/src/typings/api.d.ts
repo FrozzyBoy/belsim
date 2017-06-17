@@ -3,6 +3,15 @@ declare namespace belsim.api {
         production: IProduction;
     }
 
+    interface IGraphicTypes {
+        graphicTypes: string[];
+    }
+
+    interface IAccount {
+        name: string;
+        value: number;
+    }
+
     interface IProduction {
         planningInterval: number;
         planningIntervalsCount: number;

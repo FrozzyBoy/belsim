@@ -20,7 +20,7 @@ module.exports = {
 
 	output: {
 		path: `${__dirname}/../public`,
-		publicPath: 'http://localhost:8888/',
+		publicPath: 'http://localhost:8889/',
 		filename: '[name].js',
 		chunkFilename: '[id].chunk.js'
 	},

@@ -6,12 +6,65 @@
                     <belsim-production [production]="dataModel.production" [products]="products" (onCycleChange)="openExtendedSidenav($event)"></belsim-production>
                 </div>
             </md-tab>
-            <md-tab *ngFor="let tab of tabs" label="{{tab.title | translate}}">
+            <md-tab label="{{'Belsim.Tabs.Stock' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-stock [production]="dataModel.production" [products]="products"></belsim-stock>
+                </div>
+            </md-tab>
+            <md-tab label="{{'Belsim.Tabs.Realization' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-realization [production]="dataModel.production" [products]="products" [graphicTypes]="graphicTypes"></belsim-realization>
+                </div>
+            </md-tab>
+            <md-tab label="{{'Belsim.Tabs.Supply' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-supply [production]="dataModel.production" [products]="products" [graphicTypes]="graphicTypes"></belsim-supply>
+                </div>
+            </md-tab>
+
+            <md-tab label="{{'Belsim.Tabs.Finance' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-finance></belsim-finance>
+                </div>
+            </md-tab>
+
+            <md-tab label="{{'Belsim.Tabs.Loans' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-loans></belsim-loans>
+                </div>
+            </md-tab>
+
+            <md-tab label="{{'Belsim.Tabs.Expenses' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-expenses [graphicTypes]="graphicTypes" [production]="dataModel.production" [products]="products"></belsim-expenses>
+                </div>
+            </md-tab>
+
+            <md-tab label="{{'Belsim.Tabs.PrincipalСash' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-principalCash></belsim-principalCash>
+                </div>
+            </md-tab>
+
+            <md-tab label="{{'Belsim.Tabs.Taxes' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-taxes></belsim-taxes>
+                </div>
+            </md-tab>
+
+            <md-tab label="{{'Belsim.Tabs.Accounts' | translate}}">
+                <div class="belsim-data-model__tab-content">
+                    <belsim-accounts [accounts]="accounts"></belsim-accounts>
+                </div>
+            </md-tab>
+            <!--<md-tab *ngFor="let tab of tabs" label="{{tab.title | translate}}">
                 <div class="belsim-data-model__tab-content">
                     <div #dynamic></div>
                 </div>
-            </md-tab>
+            </md-tab>-->
         </md-tab-group>
+
+
 
         <md-sidenav #sidenav2 mode="side" opened="false" align="end" class="belsim-data-model__extended-sidenav">
             <div class="belsim-data-model__content belsim-data-model__extended-sidenav-content">

@@ -1,0 +1,10 @@
+/*.production__input {
+	display: flex;
+}*/
+.realization__input {
+	width: 350px;
+	display: block;
+}
+.realization__input.specific{
+	display: inline-block;
+}

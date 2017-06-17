@@ -1,0 +1,120 @@
+<table class="stock__finished" cellspacing="0">
+	<tr>
+		<td>
+			<div class="stock__title">{{'Belsim.Tabs.Realization.IntervalBetweenUpladed' | translate}}</div>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Realization.AverageDays' | translate}}" value="0">
+			</md-input-container>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Realization.AverageDeviationDays' | translate}}" value="0">
+			</md-input-container>
+
+			<md-select class="realization__input" placeholder="{{'Belsim.Tabs.Realization.FuntionType' | translate}}" Type>
+				<md-option *ngFor="let graphicType of graphicTypes">
+					{{ graphicType }}
+				</md-option>
+			</md-select>
+		</td>
+		<td>
+			<div class="stock__title">{{'Belsim.Tabs.Realization.Maturity' | translate}}</div>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Realization.AverageDays' | translate}}" value="0">
+			</md-input-container>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Realization.AverageDeviationDays' | translate}}" value="0">
+			</md-input-container>
+			<md-select class="realization__input" placeholder="{{'Belsim.Tabs.Realization.FuntionType' | translate}}">
+				<md-option *ngFor="let graphicType of graphicTypes">
+					{{ graphicType }}
+				</md-option>
+			</md-select>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<div class="stock__title">{{'Belsim.Tabs.Realization.CoefChangingPrice'| translate}}</div>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" placeholder="{{'Belsim.Tabs.Realization.AverageUnitsMoth' | translate}}" value="0">
+			</md-input-container>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" placeholder="{{'Belsim.Tabs.Realization.AverageDeviationUnits' | translate}}" value="0">
+			</md-input-container>
+
+			<md-select class="realization__input" placeholder="{{'Belsim.Tabs.Realization.FuntionType' | translate}}" Type>
+				<md-option *ngFor="let graphicType of graphicTypes">
+					{{ graphicType }}
+				</md-option>
+			</md-select>
+		</td>
+		<td>
+			<div class="stock__title">{{'Belsim.Tabs.Realization.IntervalBetweenPriceChanges' | translate}}</div>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Realization.AverageDays' | translate}}" value="0">
+			</md-input-container>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" max="365" placeholder="{{'Belsim.Tabs.Realization.AverageDeviationDays' | translate}}" value="0">
+			</md-input-container>
+			<md-select class="realization__input" placeholder="{{'Belsim.Tabs.Realization.FuntionType'| translate}}">
+				<md-option *ngFor="let graphicType of graphicTypes">
+					{{ graphicType }}
+				</md-option>
+			</md-select>
+		</td>
+	</tr>
+</table>
+
+<div class="stock__title">{{'Belsim.Tabs.Realization.CountOfUploads' | translate}}</div>
+<md-input-container class="realization__input specific">
+	<input mdInput #uploads type="number" step="any" min="0"  placeholder="{{'Belsim.Tabs.Realization.CountOfUploads' | translate}}" value="10">
+</md-input-container>
+
+<button md-button (click)="setManual(uploads.value)">{{'Belsim.Tabs.Realization.SetManually' | translate}}</button>
+
+<table>
+	<div class="stock__title">{{'Belsim.Tabs.Realization.ShipmentVolume' | translate}}</div>
+	<tr>
+		<td>
+			<md-select class="realization__input" placeholder="{{'Belsim.Tabs.Production.ProductName' | translate}}">
+				<md-option *ngFor="let product of products" [value]="product.id">
+					{{ product.name }}
+				</md-option>
+			</md-select>
+		</td>
+		<td>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" placeholder="{{'Belsim.Tabs.Realization.AverageUnits' | translate}}" value="0">
+			</md-input-container>
+		</td>
+		<td>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" placeholder="{{'Belsim.Tabs.Realization.AverageDeviationUnits' | translate}}" value="0">
+			</md-input-container>
+		</td>
+		<td>
+			<md-select class="realization__input" placeholder="{{'Belsim.Tabs.Realization.FuntionType'| translate}}">
+				<md-option *ngFor="let graphicType of graphicTypes">
+					{{ graphicType }}
+				</md-option>
+			</md-select>
+		</td>
+	</tr>
+</table>
+
+<table>
+	<div class="stock__title">{{'Belsim.Tabs.Realization.ProductPrice' | translate}}</div>
+	<tr>
+		<td>
+			<md-select class="realization__input" placeholder="{{'Belsim.Tabs.Production.ProductName' | translate}}">
+				<md-option *ngFor="let product of products" [value]="product.id">
+					{{ product.name }}
+				</md-option>
+			</md-select>
+		</td>
+		<td>
+			<md-input-container class="realization__input">
+				<input mdInput type="number" step="any" min="0" placeholder="{{'Belsim.Tabs.Realization.Price'| translate}}" value="0">
+			</md-input-container>
+		</td>
+	</tr>
+</table>
