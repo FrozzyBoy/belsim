@@ -13,30 +13,34 @@ export class ChartRenderer {
 
   public render(
     element: any,
-    data: { name: string, values: [{ min: number, max: number, median: number }] },
-    higherBorderValue: number = undefined,
-    lowerBorderValue: number = undefined
+    data: { name: string, values: [{ min: number, max: number, median: number }] }
   ): void {
     let margin = { top: 30, right: 20, bottom: 70, left: 100 };
-    higherBorderValue = higherBorderValue ? higherBorderValue : _.chain(data.values).max(x => x.max).value().max;
-    lowerBorderValue = lowerBorderValue ? lowerBorderValue : _.chain(data.values).min(x => x.min).value().min;
+    let maxValue = _.chain(data.values).max(x => x.max).value().max;
+    let minValue = _.chain(data.values).min(x => x.min).value().min;
     let height = 600 - margin.top - margin.bottom;
     let barHeight = height;
     let chartWidth = Math.max(element.parentElement.offsetWidth, 1000);
     let width = chartWidth - margin.left - margin.right;
-    let deltaCorrection = (Math.abs(higherBorderValue - lowerBorderValue) / 2) * 0.1;
+
+    let deltaCorrection = (Math.abs(maxValue - minValue) / 2) * 0.1;
+    let higherBorderValue = maxValue + deltaCorrection;
+    let lowerBorderValue = minValue - deltaCorrection;
 
     let yScale = d3.scaleLinear()
-      .domain([higherBorderValue + deltaCorrection, lowerBorderValue - deltaCorrection])
+      .domain([higherBorderValue, lowerBorderValue])
       .range([0, height]);
     let xScale = d3.scaleLinear()
       .domain([0, data.values.length])
       .range([0, width]);
-    let chart = d3.select(element)
+
+    let svg = d3.select(element)
       .attr('height', height + margin.top + margin.bottom)
-      .attr('width', width + margin.left + margin.right)
-      .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      .attr('width', width + margin.left + margin.right);
+    let chart = svg.append("g")
+      .classed('chart-wrapper', true)
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+      .append('g');
 
     let bar = chart.selectAll('g')
       .data(data.values)
@@ -55,7 +59,7 @@ export class ChartRenderer {
 
     let xAxis = d3.axisBottom(xScale)
       .tickSizeInner(-height);
-    chart.append('g')
+    let gX = chart.append('g')
       .attr('class', 'x axis')
       .attr('transform', `translate(0, ${height})`)
       .call(xAxis);
@@ -69,14 +73,18 @@ export class ChartRenderer {
       .tickPadding(10)
       .tickSizeInner(-width)
       .ticks(ticks);
-    chart.append('g')
+    let gY = chart.append('g')
       .attr('class', 'y axis')
       .call(yAxis);
 
-  }
+    let transform = d3.zoomIdentity;
+    svg.call(d3.zoom()
+      .scaleExtent([1 / 2, 8])
+      .on("zoom", zoomed));
 
-  private renderChart(): void {
-
+    function zoomed() {
+      chart.attr("transform", d3.event.transform);
+    }
   }
 
   public reRender(element: any, data: { name: string, values: [{ min: number, max: number, median: number }] }): void {

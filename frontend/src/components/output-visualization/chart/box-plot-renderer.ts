@@ -94,12 +94,17 @@ export class BoxPlotRenderer {
       .attr('y2', 0)
       .attr('x1', xStart)
       .attr('x2', xEnd);
+    let textSize = _.chain([Math.abs(yScale(d.median) - yScale(d.min)) / 10, Math.abs(yScale(d.max) - yScale(d.median)) / 10, 10])
+      .map(x => (x === 0 || x < 3) ? 3 : x)
+      .min()
+      .value();
+
     extremumGroup.append('text')
       .classed('median-text', true)
       .attr('transform', y => `translate(${xEnd + 3}, 0)`)
       .text(x => x)
       .attr("font-family", "sans-serif")
-      .attr("font-size", "8px");
+      .attr("font-size", `${textSize}px`);
   }
 
   public reRender(): void {
