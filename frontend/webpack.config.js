@@ -3,9 +3,11 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
-let env = process.env.ENV || 'develop';
+let env = process.env.NODE_ENV || 'develop';
 
-module.exports = {
+console.log('enviroment is', env);
+
+let config = {
 	entry: {
 		'polyfills': './src/polyfills.ts',
 		'vendor': './src/vendor.ts',
@@ -52,10 +54,6 @@ module.exports = {
 			name: ['app', 'vendor', 'polyfills']
 		}),
 
-		new HtmlWebpackPlugin({
-			template: 'src/index.html'
-		}),
-
 		new CopyWebpackPlugin([
 			{ from: 'src/localization', to: 'localization' }
 		])
@@ -66,3 +64,12 @@ module.exports = {
 		stats: 'minimal'
 	}
 };
+
+if (env === 'develop') {
+	config.plugins.push(new HtmlWebpackPlugin({
+		template: 'src/index.html'
+	}));
+}
+
+
+module.exports = config;
