@@ -14,5 +14,8 @@ exports.config = {
 
     framework: 'jasmine',
 
-    specs: ['scenarios/simple-scenario.js']
+    specs: [
+        'scenarios/simple-scenario.js',
+        'scenarios/out-scenario.js'
+    ]
 }

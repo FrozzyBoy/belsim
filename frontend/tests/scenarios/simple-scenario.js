@@ -22,7 +22,7 @@ describe('check tabs', () => {
         }).then(() => {
             return expect(productionTab.isPanelVisible()).toBeTruthy();
         })
-    })
+    });
 
     it('check incremet of the value', () => {
         expect(tabsPage.chooseValue()).toEqual('5').then(() => {
@@ -41,42 +41,41 @@ describe('check tabs', () => {
     });
 
 
+    it('check # of tabs', () => {
+        let tabsCount = tabsPage.getTabsCount();
+        expect(tabsCount).toBe(10);
+    });
 
-            it('check # of tabs', () => {
-                let tabsCount = tabsPage.getTabsCount();
-                expect(tabsCount).toBe(10);
-            });
+    xit('first tab name should be "Производство"', () => {
+        let tabName = tabsPage.getTabText(0);
+        expect(tabName).toEqual('Производство');
+    });
 
-            xit('first tab name should be "Производство"', () => {
-                let tabName = tabsPage.getTabText(0);
-                expect(tabName).toEqual('Производство');
-            });
+    it('check inputs names', () => {
+        let inputNames = tabsPage.getInputsNames();
+        expect(inputNames).toEqual(expectedInputNamesRu);
+    });
 
-            it('check inputs names', () => {
+    it('check tabs names', () => {
+        let tabsNames = tabsPage.getTabsNames();
+        expect(tabsNames).toEqual(expectedTabsNamesRu);
+    });
+
+    it('check inputs names in English', () => {
+        browser.refresh().then(() => {
+            tabsPage.changeLanguage().then(() => {
                 let inputNames = tabsPage.getInputsNames();
-                expect(inputNames).toEqual(expectedInputNamesRu);
-            });
-
-            it('check tabs names', () => {
-                let tabsNames = tabsPage.getTabsNames();
-                expect(tabsNames).toEqual(expectedTabsNamesRu);
-            });
-
-            it('check inputs names in English', () => {
-                browser.refresh().then(() => {
-                    tabsPage.changeLanguage().then(() => {
-                        let inputNames = tabsPage.getInputsNames();
-                        expect(inputNames).toEqual(expectedInputNamesEn);
-                    })
-                })
-            });
-
-            it('check tabs names in English', () => {
-                browser.refresh().then(() => {
-                    tabsPage.changeLanguage().then(() => {
-                        let tabsNames = tabsPage.getTabsNames();
-                        expect(tabsNames).toEqual(expectedTabsNamesEn);
-                    })
-                })
+                expect(inputNames).toEqual(expectedInputNamesEn);
             })
-        });
+        })
+    });
+
+    it('check tabs names in English', () => {
+        browser.refresh().then(() => {
+            tabsPage.changeLanguage().then(() => {
+                let tabsNames = tabsPage.getTabsNames();
+                expect(tabsNames).toEqual(expectedTabsNamesEn);
+            })
+        })
+    })
+});

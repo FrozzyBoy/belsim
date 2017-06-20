@@ -17,18 +17,19 @@ module.exports = {
             browser.sleep(500);
         });
     },
-    getInputsNames: () =>{
+    getInputsNames: () => {
         let inputsNames = [];
 
-        return inputList.each(input =>
-        {
+        return inputList.each(input => {
             input.getAttribute('placeholder').then(text => {
-                        inputsNames.push(text);
-                    });
-        }).then(()=>{
+                inputsNames.push(text);
+            });
+        }).then(() => {
             return inputsNames;
         })
     },
+
+
     getTabsNames: () => {
         let tabsNames = [];
 
@@ -49,13 +50,13 @@ module.exports = {
             return languageList.get(0).click();
         })
     },
-    chooseValue: () =>{
+    chooseValue: () => {
         return inputList.get(0).getAttribute('value');
     },
-    clickValue: ()=>{
+    clickValue: () => {
         return inputList.get(0);
     }
-    
+
 }
 
 function waitForElementAppearance(element) {
